@@ -1,0 +1,8 @@
+.sidebar_right {
+    width: 70px;
+    height: 100vh;
+    background-color: #353535;
+    position: fixed;
+    right: 0;
+    top: 80px;
+}

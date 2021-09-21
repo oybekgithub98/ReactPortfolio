@@ -1,0 +1,1016 @@
+.contact {
+    width: 84%;
+    margin: 0 0 0 10vh
+}
+
+.contact > h3 {
+    margin: 12vh 0 6vh 0;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+.contact_wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.contact_image {
+    width: 50%;
+}
+
+.contact_image > img {
+    width: 100%;
+}
+
+.contact_form {
+    width: 50%;
+}
+
+.contact_form > form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Sarala', sans-serif;
+    width: 96%;
+    margin: auto;
+    margin: 20px 0 0 20px;
+}
+
+.contact_form > form > input {
+    display: block;
+    width: 100%;
+    padding: 16px 8px;
+    margin: 7px 0;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    background: #353535;
+    text-indent: 10px;
+    font-family: sans-serif;
+    box-shadow: -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8);
+}
+
+input::placeholder {
+    color: rgb(168, 168, 168);
+}
+
+.contact_form > form > textarea{
+    height: 200px;
+    background: #353535;
+    border-radius: 10px;
+    box-shadow: -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8);
+    font-size: 25px;
+    padding: 16px 8px;
+    margin: 5px 0;
+    outline: none;
+    border: none;
+    text-indent: 10px;
+    color: #fff;
+}
+
+textarea::placeholder {
+    color: rgb(168, 168, 168);
+}
+
+.contact_form > button {
+    font-size: 25px;
+    color: #fb839e;
+    background: #353535;
+    margin: 30px 0 0 5%;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    transition: box-shadow .2s linear;
+    box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+    border: none;
+    outline: none;
+}
+
+.contact_form > button:active {
+    box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);   
+}
+
+/* LIGHT MODE AND DARK MODE */
+.contactLight {
+    background-color: #F7F7F7;
+    width: 84%;
+    margin: 0 0 0 10vh;
+}
+
+.contactLight > h3 {
+    margin: 12vh 0 6vh 0;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    color: #353535;
+}
+
+.contactLight > .contact_wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.contactLight > .contact_wrapper > .contact_image {
+    width: 50%;
+}
+
+.contactLight > .contact_wrapper > .contact_image > img {
+    width: 100%;
+}
+
+.contactLight > .contact_wrapper > .contact_form {
+    width: 50%;
+}
+
+.contactLight > .contact_wrapper > .contact_form > form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Sarala', sans-serif;
+    width: 96%;
+    margin: auto;
+    margin: 20px 0 0 20px;
+}
+
+.contactLight > .contact_wrapper > .contact_form > form > input {
+    display: block;
+    width: 100%;
+    padding: 16px 8px;
+    margin: 7px 0;
+    border-radius: 10px;
+    color: #353535;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    background-color: #F7F7F7;
+    text-indent: 10px;
+    font-family: sans-serif;
+    box-shadow: -3px -3px 3px rgba(255,255,255,1), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
+}
+
+.contactLight > .contact_wrapper > .contact_form > form > input:hover {
+    box-shadow: inset -3px -3px 3px rgba(255,255,255,.9), inset 3px 3px 3px rgba(23, 23, 24, 0.1);
+}
+
+.contactLight > .contact_wrapper > .contact_form > form > textarea{
+    height: 200px;
+    background: #353535;
+    border-radius: 10px;
+    box-shadow: -3px -3px 3px rgba(255,255,255,1), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
+    font-size: 25px;
+    padding: 16px 8px;
+    margin: 5px 0;
+    outline: none;
+    border: none;
+    text-indent: 10px;
+    color: #353535;
+    background-color: #F7F7F7;
+}
+
+.contactLight > .contact_wrapper > .contact_form > form > textarea:hover {
+    box-shadow: inset -3px -3px 3px rgba(255,255,255,.9), inset 3px 3px 3px rgba(23, 23, 24, 0.1);
+}
+
+.contactLight > .contact_wrapper > .contact_form > button {
+    font-size: 25px;
+    color: #353535;
+    background-color: #F7F7F7;
+    margin: 30px 0 0 5%;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    transition: box-shadow .2s linear;
+    border: none;
+    outline: none;
+    box-shadow: -3px -3px 3px rgba(255,255,255,1), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
+}
+
+.contactLight > .contact_wrapper > .contact_form > button:hover {
+    box-shadow: inset -3px -3px 3px rgba(255,255,255,.9), inset 3px 3px 3px rgba(23, 23, 24, 0.1);
+}
+
+.contact_form > button:active {
+    box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);   
+}
+
+
+/*RESPONSIVE*/
+@media screen and (max-width: 1200px){
+    .contact {
+        width: 90%;
+        margin: 0 0 0 8px;
+    }
+    
+    .contact > h3 {
+        margin: 12vh 0 6vh 0;
+        font-size: 35px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+    
+    .contact_wrapper {
+        width: 99%;
+        display: flex;
+    }
+    
+    .contact_image {
+        width: 50%;
+    }
+    
+    .contact_image > img {
+        width: 100%;
+    }
+    
+    .contact_form {
+        width: 50%;
+    }
+    
+    .contact_form > form {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Sarala', sans-serif;
+        width: 96%;
+        margin: auto;
+        margin: 20px 0 0 20px;
+    }
+    
+    .contact_form > form > input {
+        display: block;
+        width: 100%;
+        padding: 10px 8px;
+        margin: 7px 0;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 17px;
+        outline: none;
+        border: none;
+        background: #353535;
+        text-indent: 10px;
+        font-family: sans-serif;
+        box-shadow: -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8);
+    }
+    
+    input::placeholder {
+        color: rgb(168, 168, 168);
+    }
+    
+    .contact_form > form > textarea{
+        height: 200px;
+        background: #353535;
+        border-radius: 10px;
+        box-shadow: -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8);
+        font-size: 25px;
+        padding: 16px 8px;
+        margin: 5px 0;
+        outline: none;
+        border: none;
+        text-indent: 10px;
+        color: #fff;
+    }
+
+    textarea {
+        font-size: 18px!important;
+    }
+    
+    textarea::placeholder {
+        color: rgb(168, 168, 168);
+    }
+    
+    .contact_form > button {
+        font-size: 25px;
+        color: #fb839e;
+        background: #353535;
+        margin: 30px 0 0 5%;
+        border-radius: 30px;
+        padding: 10px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        border: none;
+        outline: none;
+    }
+    
+    .contact_form > button:active {
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);   
+    }
+}
+@media screen and (max-width: 1024px){
+    .contact {
+        width: 90%;
+        margin: 0 0 0 8px;
+    }
+    
+    .contact > h3 {
+        margin: 12vh 0 6vh 0;
+        font-size: 35px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+    
+    .contact_wrapper {
+        width: 99%;
+        display: flex;
+    }
+    
+    .contact_image {
+        width: 50%;
+    }
+    
+    .contact_image > img {
+        width: 100%;
+    }
+    
+    .contact_form {
+        width: 50%;
+    }
+    
+    .contact_form > form {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Sarala', sans-serif;
+        width: 96%;
+        margin: auto;
+        margin: 20px 0 0 20px;
+    }
+    
+    .contact_form > form > input {
+        display: block;
+        width: 100%;
+        padding: 10px 8px;
+        margin: 7px 0;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 17px;
+        outline: none;
+        border: none;
+        background: #353535;
+        text-indent: 10px;
+        font-family: sans-serif;
+        box-shadow: -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8);
+    }
+    
+    input::placeholder {
+        color: rgb(168, 168, 168);
+    }
+    
+    .contact_form > form > textarea{
+        height: 200px;
+        background: #353535;
+        border-radius: 10px;
+        box-shadow: -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8);
+        font-size: 25px;
+        padding: 16px 8px;
+        margin: 5px 0;
+        outline: none;
+        border: none;
+        text-indent: 10px;
+        color: #fff;
+    }
+
+    textarea {
+        font-size: 18px!important;
+    }
+    
+    textarea::placeholder {
+        color: rgb(168, 168, 168);
+    }
+    
+    .contact_form > button {
+        font-size: 25px;
+        color: #fb839e;
+        background: #353535;
+        margin: 30px 0 0 5%;
+        border-radius: 30px;
+        padding: 10px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        border: none;
+        outline: none;
+    }
+    
+    .contact_form > button:active {
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);   
+    }
+}
+@media screen and (max-width: 976px){
+    .contact {
+        width: 90%;
+        margin: 0 0 0 8px;
+    }
+    
+    .contact > h3 {
+        margin: 12vh 0 6vh 0;
+        font-size: 35px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+    
+    .contact_wrapper {
+        width: 99%;
+        display: flex;
+    }
+    
+    .contact_image {
+        width: 50%;
+    }
+    
+    .contact_image > img {
+        width: 100%;
+    }
+    
+    .contact_form {
+        width: 50%;
+    }
+    
+    .contact_form > form {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Sarala', sans-serif;
+        width: 96%;
+        margin: auto;
+        margin: 20px 0 0 20px;
+    }
+    
+    .contact_form > form > input {
+        display: block;
+        width: 100%;
+        padding: 10px 8px;
+        margin: 7px 0;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 17px;
+        outline: none;
+        border: none;
+        background: #353535;
+        text-indent: 10px;
+        font-family: sans-serif;
+        box-shadow: -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8);
+    }
+    
+    input::placeholder {
+        color: rgb(168, 168, 168);
+    }
+    
+    .contact_form > form > textarea{
+        height: 200px;
+        background: #353535;
+        border-radius: 10px;
+        box-shadow: -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8);
+        font-size: 25px;
+        padding: 16px 8px;
+        margin: 5px 0;
+        outline: none;
+        border: none;
+        text-indent: 10px;
+        color: #fff;
+    }
+
+    textarea {
+        font-size: 18px!important;
+    }
+    
+    textarea::placeholder {
+        color: rgb(168, 168, 168);
+    }
+    
+    .contact_form > button {
+        font-size: 25px;
+        color: #fb839e;
+        background: #353535;
+        margin: 30px 0 0 5%;
+        border-radius: 30px;
+        padding: 10px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        border: none;
+        outline: none;
+    }
+    
+    .contact_form > button:active {
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);   
+    }
+}
+
+@media screen and (max-width: 767px){
+    .contact {
+        width: 89.4%;
+        margin: 0 0 0 0;   
+    }
+
+    .contact > h3 {
+        margin: 10vh 0 3vh 0;
+        font-size: 29px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+    
+    .contact_wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact_image {
+        width: 100%;
+    }
+    
+    .contact_image > img {
+        width: 98%;
+    }
+    
+    .contact_form {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+    
+    .contact_form > form {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Sarala', sans-serif;
+        width: 96%;
+        margin: auto;
+        margin: 0;
+    }
+    
+    .contact_form > form > input {
+        display: block;
+        width: 100%;
+        padding: 11px;
+        margin: 10px 0;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 17px;
+        outline: none;
+        border: none;
+        background: #353535;
+        text-indent: 10px;
+        font-family: sans-serif;
+        box-shadow: -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8);
+    }
+    
+    input::placeholder {
+        color: rgb(168, 168, 168);
+    }
+
+    textarea {
+        font-size: 17px !important;
+    }
+    
+    textarea::placeholder {
+        color: rgb(168, 168, 168);
+        font-size: 18px;
+    }
+    
+    .contact_form > button {
+        font-size: 17px;
+        color: #fb839e;
+        background: #353535;
+        margin: 30px 0 0 0;
+        border-radius: 30px;
+        padding: 10px 12px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        border: none;
+        outline: none;
+    }
+    
+    .contact_form > button:active {
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);   
+    }
+}
+@media screen and (max-width: 501px){
+    .contact {
+        width: 87.6%;
+        margin: 0 0 0 0;   
+    }
+
+    .contact > h3 {
+        margin: 10vh 0 3vh 0;
+        font-size: 29px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+    
+    .contact_wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact_image {
+        width: 100%;
+    }
+    
+    .contact_image > img {
+        width: 98%;
+    }
+    
+    .contact_form {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+    
+    .contact_form > form {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Sarala', sans-serif;
+        width: 96%;
+        margin: auto;
+        margin: 0;
+    }
+    
+    .contact_form > form > input {
+        display: block;
+        width: 100%;
+        padding: 11px;
+        margin: 10px 0;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 17px;
+        outline: none;
+        border: none;
+        background: #353535;
+        text-indent: 10px;
+        font-family: sans-serif;
+        box-shadow: -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8);
+    }
+    
+    input::placeholder {
+        color: rgb(168, 168, 168);
+    }
+
+    textarea {
+        font-size: 17px !important;
+    }
+    
+    textarea::placeholder {
+        color: rgb(168, 168, 168);
+        font-size: 18px;
+    }
+    
+    .contact_form > button {
+        font-size: 17px;
+        color: #fb839e;
+        background: #353535;
+        margin: 30px 0 0 0;
+        border-radius: 30px;
+        padding: 10px 12px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        border: none;
+        outline: none;
+    }
+    
+    .contact_form > button:active {
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);   
+    }
+}
+@media screen and (max-width: 460px){
+    .contact {
+        width: 84%;
+        margin: 0 0 0 0;   
+    }
+
+    .contact > h3 {
+        margin: 10vh 0 3vh 0;
+        font-size: 29px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+    
+    .contact_wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact_image {
+        width: 100%;
+    }
+    
+    .contact_image > img {
+        width: 98%;
+    }
+    
+    .contact_form {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+    
+    .contact_form > form {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Sarala', sans-serif;
+        width: 96%;
+        margin: auto;
+        margin: 0;
+    }
+    
+    .contact_form > form > input {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 16px;
+        outline: none;
+        border: none;
+        background: #353535;
+        text-indent: 10px;
+        font-family: sans-serif;
+        box-shadow: -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8);
+    }
+    
+    input::placeholder {
+        color: rgb(168, 168, 168);
+    }
+
+    textarea {
+        font-size: 16px !important;
+    }
+    
+    textarea::placeholder {
+        color: rgb(168, 168, 168);
+        font-size: 18px;
+    }
+    
+    .contact_form > button {
+        font-size: 17px;
+        color: #fb839e;
+        background: #353535;
+        margin: 30px 0 0 0;
+        border-radius: 30px;
+        padding: 10px 12px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        border: none;
+        outline: none;
+    }
+    
+    .contact_form > button:active {
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);   
+    } 
+}
+@media screen and (max-width: 400px){
+    .contact {
+        width: 84%;
+        margin: 0 0 0 0;   
+    }
+
+    .contact > h3 {
+        margin: 6vh 0 3vh 0;
+        font-size: 29px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+    
+    .contact_wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact_image {
+        width: 100%;
+    }
+    
+    .contact_image > img {
+        width: 100%;
+    }
+    
+    .contact_form {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+    
+    .contact_form > form {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Sarala', sans-serif;
+        width: 96%;
+        margin: auto;
+        margin: 0;
+    }
+    
+    .contact_form > form > input {
+        display: block;
+        width: 100%;
+        padding: 8px;
+        margin: 10px 0;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 16px;
+        outline: none;
+        border: none;
+        background: #353535;
+        text-indent: 10px;
+        font-family: sans-serif;
+        box-shadow: -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8);
+    }
+    
+    input::placeholder {
+        color: rgb(168, 168, 168);
+    }
+
+    textarea {
+        font-size: 16px !important;
+    }
+    
+    textarea::placeholder {
+        color: rgb(168, 168, 168);
+        font-size: 18px;
+    }
+    
+    .contact_form > button {
+        font-size: 17px;
+        color: #fb839e;
+        background: #353535;
+        margin: 30px 0 0 0;
+        border-radius: 30px;
+        padding: 10px 12px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        border: none;
+        outline: none;
+    }
+    
+    .contact_form > button:active {
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);   
+    } 
+}
+
+@media screen and (max-width: 370px){
+    .contact {
+        width: 84%;
+        margin: 0 0 0 0;   
+    }
+
+    .contact > h3 {
+        margin: 6vh 0 3vh 0;
+        font-size: 26px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+    
+    .contact_wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact_image {
+        width: 100%;
+    }
+    
+    .contact_image > img {
+        width: 100%;
+    }
+    
+    .contact_form {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+    
+    .contact_form > form {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Sarala', sans-serif;
+        width: 96%;
+        margin: auto;
+        margin: 0;
+    }
+    
+    .contact_form > form > input {
+        display: block;
+        width: 100%;
+        padding: 8px;
+        margin: 10px 0;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 16px;
+        outline: none;
+        border: none;
+        background: #353535;
+        text-indent: 10px;
+        font-family: sans-serif;
+        box-shadow: -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8);
+    }
+    
+    input::placeholder {
+        color: rgb(168, 168, 168);
+    }
+    
+    textarea::placeholder {
+        color: rgb(168, 168, 168);
+    }
+    
+    .contact_form > button {
+        font-size: 16px;
+        color: #fb839e;
+        background: #353535;
+        margin: 30px 0 0 0;
+        border-radius: 30px;
+        padding: 7px 10px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        border: none;
+        outline: none;
+    }
+    
+    .contact_form > button:active {
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);   
+    }    
+}
+
+@media (min-width: 300px) and (max-width: 330px){
+    .contact {
+        width: 77%;
+        margin: 0 0 0 0;   
+    }
+
+    .contact > h3 {
+        margin: 6vh 0 3vh 0;
+        font-size: 26px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+    
+    .contact_wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact_image {
+        width: 100%;
+    }
+    
+    .contact_image > img {
+        width: 100%;
+    }
+    
+    .contact_form {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+    
+    .contact_form > form {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Sarala', sans-serif;
+        width: 96%;
+        margin: auto;
+        margin: 0;
+    }
+    
+    .contact_form > form > input {
+        display: block;
+        width: 100%;
+        padding: 7px;
+        margin: 10px 0;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 16px;
+        outline: none;
+        border: none;
+        background: #353535;
+        text-indent: 10px;
+        font-family: sans-serif;
+        box-shadow: -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8);
+    }
+    
+    input::placeholder {
+        color: rgb(168, 168, 168);
+    }
+    
+    textarea::placeholder {
+        color: rgb(168, 168, 168);
+    }
+    
+    .contact_form > button {
+        font-size: 16px;
+        color: #fb839e;
+        background: #353535;
+        margin: 30px 0 0 0;
+        border-radius: 30px;
+        padding: 7px 10px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        border: none;
+        outline: none;
+    }
+    
+    .contact_form > button:active {
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);   
+    }
+}

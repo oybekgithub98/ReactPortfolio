@@ -1,0 +1,122 @@
+
+.sidebar {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    height: 100vh;
+    width: 70px;
+    background-color: rgb(7, 64, 233);
+    transition: all 0.5s;
+    z-index: 905;
+}
+
+
+/*RESPONSIVE*/
+@media screen and (max-width: 1200px){
+    .sidebar {
+        position: fixed;
+        top: 75px;
+        left: 0;
+        height: 100vh;
+        width: 60px;
+        background-color: rgb(43, 44, 47);
+        transition: all 0.5s;
+        z-index: 905;
+    }
+}
+@media screen and (max-width: 1024px){
+    .sidebar {
+        position: fixed;
+        top: 75px;
+        left: 0;
+        height: 100vh;
+        width: 60px;
+        background-color: rgb(43, 44, 47);
+        transition: all 0.5s;
+        z-index: 905;
+    }
+}
+@media screen and (max-width: 976px){
+    .sidebar {
+        position: fixed;
+        top: 75px;
+        left: 0;
+        height: 100vh;
+        width: 60px;
+        background-color: rgb(43, 44, 47);
+        transition: all 0.5s;
+        z-index: 905;
+    }
+}
+@media screen and (max-width: 767px){
+    .sidebar {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        height: 100vh;
+        width: 60px;
+        background-color: rgb(43, 44, 47);
+        transition: all 0.5s;
+        z-index: 905;
+    }
+}
+@media screen and (max-width: 501px){
+    .sidebar {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        height: 100vh;
+        width: 60px;
+        background-color: rgb(43, 44, 47);
+        transition: all 0.5s;
+        z-index: 905;
+    }
+}
+@media screen and (max-width: 460px){
+    .sidebar {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        height: 100vh;
+        width: 60px;
+        background-color: rgb(43, 44, 47);
+        transition: all 0.5s;
+        z-index: 905;
+    }
+}
+@media screen and (max-width: 400px){
+    .sidebar {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        height: 100vh;
+        width: 60px;
+        background-color: rgb(43, 44, 47);
+        transition: all 0.5s;
+        z-index: 905;
+    }
+}
+@media screen and (max-width: 370px){
+    .sidebar {
+        position: fixed;
+        top: 60px;
+        left: 0;
+        height: 100vh;
+        width: 60px;
+        background-color: rgb(43, 44, 47);
+        transition: all 0.5s;
+        z-index: 905;
+    }
+}
+@media (min-width: 300px) and (max-width: 330px){
+    .sidebar {
+        position: fixed;
+        top: 60px;
+        left: 0;
+        height: 100vh;
+        width: 60px;
+        background-color: rgb(43, 44, 47);
+        transition: all 0.5s;
+        z-index: 905;
+    }
+}

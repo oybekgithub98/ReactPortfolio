@@ -1,0 +1,97 @@
+.theme {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 5px;
+    top: 20px;
+    z-index: 20;
+    transition: 0.5s;
+}
+
+.activeTheme {
+    left: -30vh;
+}
+
+.icon {
+    width: 8vh;
+    height: 8vh;
+    background-color: #2B2C2F;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8);
+    margin: 7px 0 7px 0;
+    cursor: pointer;
+    
+}
+
+.icon:hover {
+    /* hoveri bolganda 👇 ishlatiladi */
+    box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
+}
+
+.facogIcon {
+    animation: spin 4s infinite linear;
+}
+
+@keyframes spin { 
+    from { 
+        transform: rotate(0deg); 
+    } 
+    to { 
+        transform: rotate(360deg); 
+    } 
+}
+
+.theme_color {
+    width: 170px;
+    height: 110px;
+    margin: 0 0 0 30px ;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 1px 1px 6px 0.2px grey;
+    background-color: #353535;
+
+}
+
+.theme_colors {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.theme_color > h3 {
+    margin: 10px 0 0 0;
+    font-family: sans-serif monospace;
+}
+
+
+.theme_colors > div {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 3px;
+}
+
+.color1 {
+    background-color: #FB839E;
+}
+
+.color2 {
+    background-color: #EC9412;
+}
+
+.color3 {
+    background-color: #1FC586;
+}
+
+.color4 {
+    background-color: #2EB1ED;
+}
+
+.color5 {
+    background-color: #CC3A3B;
+} 

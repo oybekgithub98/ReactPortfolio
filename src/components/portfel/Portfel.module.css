@@ -1,0 +1,1581 @@
+.portfolio {
+    width: 84%;
+    margin: 0 0 0 10vh;
+}
+
+.portfolio h3 {
+    margin: 12vh 0 6vh 0;
+    font-size: 33px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+.portfolio_box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    z-index: 12;
+}
+
+.portfolio_card1, .portfolio_card2 {
+    width: 32%;
+    height: 45vh;
+    position: relative;
+    transition: all 0.5s;
+    overflow: hidden;
+    border-radius: 9px;
+}
+
+.portfolio_card1 > img {
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+}
+
+.portfolio_card2 > img {
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+}
+
+.portfolio_card1:hover > img {
+    transform: scale(1.1);
+}
+
+.portfolio_card2:hover > img {
+    transform: scale(1.1);
+}
+
+.portfolio_card1:hover .card_overlay {
+    transform: translateY(0);
+    transition: 0.5s;
+    opacity: 1;
+    box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
+}
+.portfolio_card2:hover .card_overlay {
+    transform: translateY(0);
+    transition: 0.5s;
+    opacity: 1;
+    box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
+    
+}
+
+.portfolio_card1 > .card_overlay {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transform: translateY(-45vh);
+    padding: 20px 20px;
+}
+.portfolio_card2 > .card_overlay {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transform: translateY(-45vh);
+    padding: 20px 20px;
+}
+
+.card_overlay > h4 {
+    font-size: 22px;
+}
+
+.card_overlay > button {
+    background: #353535;
+    margin-top: 30px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: none;
+    transition: box-shadow .2s linear;
+    box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+    font-size: 20px;
+    margin: 5vh 20px 0 0;
+    color: #EC7D96;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.card_overlay > button:hover {
+    box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
+}
+
+.card_overlay_item {
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.card_overlay_item > a {
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.card_overlay_item > a > span {
+    /* font-size: 20px; */
+    color: rgb(113, 233, 113);
+    padding: 0px 10px;
+}
+
+
+/* LIGHT MODE AND DARK MODE */
+.portLight {
+    background-color: #F7F7F7;
+    width: 84%;
+    margin: 0 0 0 10vh;
+}
+
+.portLight h3 {
+    margin: 12vh 0 6vh 0;
+    font-size: 33px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    color: #353535;
+}
+
+
+/*RESPONSIVE*/
+@media screen and (max-width: 1200px){
+    .portfolio {
+        width: 84%;
+        margin: 0 0 0 10vh
+    }
+    
+    .portfolio h3 {
+        margin: 12vh 0 6vh 0;
+        font-size: 33px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+    
+    .portfolio_box {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+        z-index: 12;
+    }
+    
+    .portfolio_card1, .portfolio_card2 {
+        width: 32%;
+        height: 45vh;
+        position: relative;
+        transition: all 0.5s;
+        overflow: hidden;
+        border-radius: 9px;
+    }
+    
+    .portfolio_card1 > img {
+        width: 100%;
+        height: 100%;
+        transition: 0.4s;
+    }
+    
+    .portfolio_card2 > img {
+        width: 100%;
+        height: 100%;
+        transition: 0.4s;
+    }
+    
+    .portfolio_card1:hover > img {
+        transform: scale(1.1);
+    }
+    
+    .portfolio_card2:hover > img {
+        transform: scale(1.1);
+    }
+    
+    .portfolio_card1:hover .card_overlay {
+        transform: translateY(0);
+        transition: 0.5s;
+        opacity: 1;
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
+    }
+    .portfolio_card2:hover .card_overlay {
+        transform: translateY(0);
+        transition: 0.5s;
+        opacity: 1;
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
+        
+    }
+    
+    .portfolio_card1 > .card_overlay {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        transform: translateY(-45vh);
+        padding: 20px 20px;
+    }
+    .portfolio_card2 > .card_overlay {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        transform: translateY(-45vh);
+        padding: 20px 20px;
+    }
+    
+    .card_overlay > h4 {
+        font-size: 17px;
+    }
+    
+    .card_overlay > button {
+        background: #353535;
+        margin-top: 30px;
+        border-radius: 30px;
+        padding: 8px 18px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        font-size: 18px;
+        margin: 5vh 20px 0 0;
+        color: #EC7D96;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    
+    .card_overlay > button:hover {
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
+    }
+    
+    .card_overlay_item {
+        position: absolute;
+        right: 10px;
+        bottom: 20px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    
+    .card_overlay_item > a {
+        font-size: 20px;
+        color: white;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+    
+    .card_overlay_item > a > span {
+        color: rgb(113, 233, 113);
+        padding: 0px 10px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .portfolio {
+        width: 84%;
+        margin: 0 0 0 10vh
+    }
+    
+    .portfolio h3 {
+        margin: 12vh 0 6vh 0;
+        font-size: 33px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+    
+    .portfolio_box {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+        z-index: 12;
+    }
+    
+    .portfolio_card1, .portfolio_card2 {
+        width: 32%;
+        height: 45vh;
+        position: relative;
+        transition: all 0.5s;
+        overflow: hidden;
+        border-radius: 9px;
+    }
+    
+    .portfolio_card1 > img {
+        width: 100%;
+        height: 100%;
+        transition: 0.4s;
+    }
+    
+    .portfolio_card2 > img {
+        width: 100%;
+        height: 100%;
+        transition: 0.4s;
+    }
+    
+    .portfolio_card1:hover > img {
+        transform: scale(1.1);
+    }
+    
+    .portfolio_card2:hover > img {
+        transform: scale(1.1);
+    }
+    
+    .portfolio_card1:hover .card_overlay {
+        transform: translateY(0);
+        transition: 0.5s;
+        opacity: 1;
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
+    }
+    .portfolio_card2:hover .card_overlay {
+        transform: translateY(0);
+        transition: 0.5s;
+        opacity: 1;
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
+        
+    }
+    
+    .portfolio_card1 > .card_overlay {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        transform: translateY(-45vh);
+        padding: 20px 20px;
+    }
+    .portfolio_card2 > .card_overlay {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        transform: translateY(-45vh);
+        padding: 20px 20px;
+    }
+    
+    .card_overlay > h4 {
+        font-size: 17px;
+    }
+    
+    .card_overlay > button {
+        background: #353535;
+        margin-top: 30px;
+        border-radius: 30px;
+        padding: 8px 18px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        font-size: 18px;
+        margin: 5vh 20px 0 0;
+        color: #EC7D96;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    
+    .card_overlay > button:hover {
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
+    }
+    
+    .card_overlay_item {
+        position: absolute;
+        right: 10px;
+        bottom: 20px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    
+    .card_overlay_item > a {
+        font-size: 20px;
+        color: white;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+    
+    .card_overlay_item > a > span {
+        color: rgb(113, 233, 113);
+        padding: 0px 10px;
+    }
+}
+@media screen and (max-width: 976px){
+    .portfolio {
+        width: 90%;
+        margin: 0 0 0 8px;
+    }
+    
+    .portfolio h3 {
+        margin: 12vh 0 6vh 0;
+        font-size: 33px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+    
+    .portfolio_box {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+        z-index: 12;
+    }
+    
+    .portfolio_card1, .portfolio_card2 {
+        width: 32%;
+        height: 45vh;
+        position: relative;
+        transition: all 0.5s;
+        overflow: hidden;
+        border-radius: 9px;
+    }
+    
+    .portfolio_card1 > img {
+        width: 100%;
+        height: 100%;
+        transition: 0.4s;
+    }
+    
+    .portfolio_card2 > img {
+        width: 100%;
+        height: 100%;
+        transition: 0.4s;
+    }
+    
+    .portfolio_card1:hover > img {
+        transform: scale(1.1);
+    }
+    
+    .portfolio_card2:hover > img {
+        transform: scale(1.1);
+    }
+    
+    .portfolio_card1:hover .card_overlay {
+        transform: translateY(0);
+        transition: 0.5s;
+        opacity: 1;
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
+    }
+    .portfolio_card2:hover .card_overlay {
+        transform: translateY(0);
+        transition: 0.5s;
+        opacity: 1;
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
+        
+    }
+    
+    .portfolio_card1 > .card_overlay {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        transform: translateY(-45vh);
+        padding: 20px 20px;
+    }
+    .portfolio_card2 > .card_overlay {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        transform: translateY(-45vh);
+        padding: 20px 20px;
+    }
+    
+    .card_overlay > h4 {
+        font-size: 22px;
+    }
+    
+    .card_overlay > button {
+        background: #353535;
+        margin-top: 30px;
+        border-radius: 30px;
+        padding: 10px 20px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        font-size: 20px;
+        margin: 5vh 20px 0 0;
+        color: #EC7D96;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    
+    .card_overlay > button:hover {
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
+    }
+    
+    .card_overlay_item {
+        position: absolute;
+        right: 10px;
+        bottom: 20px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    
+    .card_overlay_item > a {
+        font-size: 20px;
+        color: white;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+    
+    .card_overlay_item > a > span {
+        color: rgb(113, 233, 113);
+        padding: 0px 10px;
+    }
+}
+@media screen and (max-width: 767px){
+    .portfolio {
+        width: 86.5%;
+        margin: 0 0 0 0;
+    }
+    
+    .portfolio h3 {
+        margin: 7vh 0 3vh 0;
+        font-size: 26px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+    
+    .portfolio_box {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-bottom: 25px;
+        z-index: 12;
+    }
+    
+    .portfolio_card1, .portfolio_card2 {
+        width: 99.5%;
+        height: 45vh;
+        position: relative;
+        transition: all 0.5s;
+        overflow: hidden;
+        border-radius: 9px;
+        margin: 5px 0;
+    }
+    
+    .portfolio_card1 > img {
+        width: 100%;
+        height: 100%;
+        transition: 0.4s;
+    }
+    
+    .portfolio_card2 > img {
+        width: 100%;
+        height: 100%;
+        transition: 0.4s;
+    }
+    
+    .portfolio_card1:hover > img {
+        transform: scale(1.1);
+    }
+    
+    .portfolio_card2:hover > img {
+        transform: scale(1.1);
+    }
+    
+    .portfolio_card1:hover .card_overlay {
+        transform: translateY(0);
+        transition: 0.5s;
+        opacity: 1;
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
+    }
+
+    .portfolio_card1:hover .card_overlay > h4 {
+        font-size: 18px;
+    }
+
+    .portfolio_card1:hover .card_overlay > button {
+        background: #353535;
+        margin-top: 30px;
+        border-radius: 30px;
+        padding: 10px 16px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        font-size: 18px;
+        margin: 5vh 20px 0 0;
+        color: #EC7D96;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .portfolio_card2:hover .card_overlay {
+        transform: translateY(0);
+        transition: 0.5s;
+        opacity: 1;
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);   
+    }
+
+    .portfolio_card2:hover .card_overlay > h4 {
+        font-size: 18px;
+    }
+
+    .portfolio_card2:hover .card_overlay > button {
+        background: #353535;
+        margin-top: 30px;
+        border-radius: 30px;
+        padding: 10px 16px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        font-size: 18px;
+        margin: 5vh 20px 0 0;
+        color: #EC7D96;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    
+    .portfolio_card1 > .card_overlay {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        transform: translateY(-45vh);
+        padding: 20px 20px;
+    }
+    .portfolio_card2 > .card_overlay {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        transform: translateY(-45vh);
+        padding: 20px 20px;
+    }
+    
+    .card_overlay > h4 {
+        font-size: 22px;
+    }
+    
+    .card_overlay > button {
+        background: #353535;
+        margin-top: 30px;
+        border-radius: 30px;
+        padding: 10px 20px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        font-size: 20px;
+        margin: 5vh 20px 0 0;
+        color: #EC7D96;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    
+    .card_overlay > button:hover {
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
+    }
+    
+    .card_overlay_item {
+        position: absolute;
+        right: 10px;
+        bottom: 20px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    
+    .card_overlay_item > a {
+        font-size: 20px;
+        color: white;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+    
+    .card_overlay_item > a > span {
+        color: rgb(113, 233, 113);
+        padding: 0px 10px;
+    }
+}
+@media screen and (max-width: 501px){
+    .portfolio {
+        width: 84.3%;
+        margin: 0 0 0 0;
+    }
+    
+    .portfolio h3 {
+        margin: 7vh 0 3vh 0;
+        font-size: 26px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+    
+    .portfolio_box {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-bottom: 25px;
+        z-index: 12;
+    }
+    
+    .portfolio_card1, .portfolio_card2 {
+        width: 99.5%;
+        height: 45vh;
+        position: relative;
+        transition: all 0.5s;
+        overflow: hidden;
+        border-radius: 9px;
+        margin: 5px 0;
+    }
+    
+    .portfolio_card1 > img {
+        width: 100%;
+        height: 100%;
+        transition: 0.4s;
+    }
+    
+    .portfolio_card2 > img {
+        width: 100%;
+        height: 100%;
+        transition: 0.4s;
+    }
+    
+    .portfolio_card1:hover > img {
+        transform: scale(1.1);
+    }
+    
+    .portfolio_card2:hover > img {
+        transform: scale(1.1);
+    }
+    
+    .portfolio_card1:hover .card_overlay {
+        transform: translateY(0);
+        transition: 0.5s;
+        opacity: 1;
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
+    }
+
+    .portfolio_card1:hover .card_overlay > h4 {
+        font-size: 18px;
+    }
+
+    .portfolio_card1:hover .card_overlay > button {
+        background: #353535;
+        margin-top: 30px;
+        border-radius: 30px;
+        padding: 10px 16px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        font-size: 16px;
+        margin: 5vh 20px 0 0;
+        color: #EC7D96;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .portfolio_card2:hover .card_overlay {
+        transform: translateY(0);
+        transition: 0.5s;
+        opacity: 1;
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);   
+    }
+
+    .portfolio_card2:hover .card_overlay > h4 {
+        font-size: 18px;
+    }
+
+    .portfolio_card2:hover .card_overlay > button {
+        background: #353535;
+        margin-top: 30px;
+        border-radius: 30px;
+        padding: 10px 16px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        font-size: 16px;
+        margin: 5vh 20px 0 0;
+        color: #EC7D96;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    
+    .portfolio_card1 > .card_overlay {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        transform: translateY(-45vh);
+        padding: 20px 20px;
+    }
+    .portfolio_card2 > .card_overlay {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        transform: translateY(-45vh);
+        padding: 20px 20px;
+    }
+    
+    .card_overlay > h4 {
+        font-size: 22px;
+    }
+    
+    .card_overlay > button {
+        background: #353535;
+        margin-top: 30px;
+        border-radius: 30px;
+        padding: 10px 20px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        font-size: 20px;
+        margin: 5vh 20px 0 0;
+        color: #EC7D96;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    
+    .card_overlay > button:hover {
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
+    }
+    
+    .card_overlay_item {
+        position: absolute;
+        right: 10px;
+        bottom: 20px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    
+    .card_overlay_item > a {
+        font-size: 20px;
+        color: white;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+    
+    .card_overlay_item > a > span {
+        /* font-size: 20px; */
+        color: rgb(113, 233, 113);
+        padding: 0px 10px;
+    }
+}
+@media screen and (max-width: 460px){
+    .portfolio {
+        width: 81.5%;
+        margin: 0 0 0 0;
+    }
+    
+    .portfolio h3 {
+        margin: 7vh 0 3vh 0;
+        font-size: 26px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+    
+    .portfolio_box {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-bottom: 25px;
+        z-index: 12;
+    }
+    
+    .portfolio_card1, .portfolio_card2 {
+        width: 99.5%;
+        height: 45vh;
+        position: relative;
+        transition: all 0.5s;
+        overflow: hidden;
+        border-radius: 9px;
+        margin: 5px 0;
+    }
+    
+    .portfolio_card1 > img {
+        width: 100%;
+        height: 100%;
+        transition: 0.4s;
+    }
+    
+    .portfolio_card2 > img {
+        width: 100%;
+        height: 100%;
+        transition: 0.4s;
+    }
+    
+    .portfolio_card1:hover > img {
+        transform: scale(1.1);
+    }
+    
+    .portfolio_card2:hover > img {
+        transform: scale(1.1);
+    }
+    
+    .portfolio_card1:hover .card_overlay {
+        transform: translateY(0);
+        transition: 0.5s;
+        opacity: 1;
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
+    }
+
+    .portfolio_card1:hover .card_overlay > h4 {
+        font-size: 16px;
+    }
+
+    .portfolio_card1:hover .card_overlay > button {
+        background: #353535;
+        margin-top: 30px;
+        border-radius: 30px;
+        padding: 8px 12px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        font-size: 16px;
+        margin: 5vh 20px 0 0;
+        color: #EC7D96;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .portfolio_card2:hover .card_overlay {
+        transform: translateY(0);
+        transition: 0.5s;
+        opacity: 1;
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);   
+    }
+
+    .portfolio_card2:hover .card_overlay > h4 {
+        font-size: 16px;
+    }
+
+    .portfolio_card2:hover .card_overlay > button {
+        background: #353535;
+        margin-top: 30px;
+        border-radius: 30px;
+        padding: 8px 12px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        font-size: 16px;
+        margin: 5vh 20px 0 0;
+        color: #EC7D96;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    
+    .portfolio_card1 > .card_overlay {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        transform: translateY(-45vh);
+        padding: 20px 20px;
+    }
+    .portfolio_card2 > .card_overlay {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        transform: translateY(-45vh);
+        padding: 20px 20px;
+    }
+    
+    .card_overlay > h4 {
+        font-size: 22px;
+    }
+    
+    .card_overlay > button {
+        background: #353535;
+        margin-top: 30px;
+        border-radius: 30px;
+        padding: 10px 20px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        font-size: 20px;
+        margin: 5vh 20px 0 0;
+        color: #EC7D96;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    
+    .card_overlay > button:hover {
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
+    }
+    
+    .card_overlay_item {
+        position: absolute;
+        right: 10px;
+        bottom: 20px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    
+    .card_overlay_item > a {
+        font-size: 20px;
+        color: white;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+    
+    .card_overlay_item > a > span {
+        /* font-size: 20px; */
+        color: rgb(113, 233, 113);
+        padding: 0px 10px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .portfolio {
+        width: 81.1%;
+        margin: 0 0 0 0;
+        /* border: 1px solid red; */
+    }
+    
+    .portfolio h3 {
+        margin: 7vh 0 3vh 0;
+        font-size: 26px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+    
+    .portfolio_box {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-bottom: 25px;
+        z-index: 12;
+    }
+    
+    .portfolio_card1, .portfolio_card2 {
+        width: 99.5%;
+        height: 45vh;
+        position: relative;
+        transition: all 0.5s;
+        overflow: hidden;
+        border-radius: 9px;
+        margin: 5px 0;
+    }
+    
+    .portfolio_card1 > img {
+        width: 100%;
+        height: 100%;
+        transition: 0.4s;
+    }
+    
+    .portfolio_card2 > img {
+        width: 100%;
+        height: 100%;
+        transition: 0.4s;
+    }
+    
+    .portfolio_card1:hover > img {
+        transform: scale(1.1);
+    }
+    
+    .portfolio_card2:hover > img {
+        transform: scale(1.1);
+    }
+    
+    .portfolio_card1:hover .card_overlay {
+        transform: translateY(0);
+        transition: 0.5s;
+        opacity: 1;
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
+    }
+
+    .portfolio_card1:hover .card_overlay > h4 {
+        font-size: 16px;
+    }
+
+    .portfolio_card1:hover .card_overlay > button {
+        background: #353535;
+        margin-top: 30px;
+        border-radius: 30px;
+        padding: 8px 12px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        font-size: 16px;
+        margin: 5vh 20px 0 0;
+        color: #EC7D96;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .portfolio_card2:hover .card_overlay {
+        transform: translateY(0);
+        transition: 0.5s;
+        opacity: 1;
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);   
+    }
+
+    .portfolio_card2:hover .card_overlay > h4 {
+        font-size: 16px;
+    }
+
+    .portfolio_card2:hover .card_overlay > button {
+        background: #353535;
+        margin-top: 30px;
+        border-radius: 30px;
+        padding: 8px 12px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        font-size: 16px;
+        margin: 5vh 20px 0 0;
+        color: #EC7D96;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    
+    .portfolio_card1 > .card_overlay {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        transform: translateY(-45vh);
+        padding: 20px 20px;
+    }
+    .portfolio_card2 > .card_overlay {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        transform: translateY(-45vh);
+        padding: 20px 20px;
+    }
+    
+    .card_overlay > h4 {
+        font-size: 22px;
+    }
+    
+    .card_overlay > button {
+        background: #353535;
+        margin-top: 30px;
+        border-radius: 30px;
+        padding: 10px 20px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        font-size: 20px;
+        margin: 5vh 20px 0 0;
+        color: #EC7D96;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    
+    .card_overlay > button:hover {
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
+    }
+    
+    .card_overlay_item {
+        position: absolute;
+        right: 10px;
+        bottom: 20px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    
+    .card_overlay_item > a {
+        font-size: 20px;
+        color: white;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+    
+    .card_overlay_item > a > span {
+        /* font-size: 20px; */
+        color: rgb(113, 233, 113);
+        padding: 0px 10px;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .portfolio {
+        width: 81.1%;
+        margin: 0 0 0 0;
+        /* border: 1px solid red; */
+    }
+    
+    .portfolio h3 {
+        margin: 7vh 0 3vh 0;
+        font-size: 26px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+    
+    .portfolio_box {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-bottom: 25px;
+        z-index: 12;
+    }
+    
+    .portfolio_card1, .portfolio_card2 {
+        width: 99.5%;
+        height: 45vh;
+        position: relative;
+        transition: all 0.5s;
+        overflow: hidden;
+        border-radius: 9px;
+        margin: 5px 0;
+    }
+    
+    .portfolio_card1 > img {
+        width: 100%;
+        height: 100%;
+        transition: 0.4s;
+    }
+    
+    .portfolio_card2 > img {
+        width: 100%;
+        height: 100%;
+        transition: 0.4s;
+    }
+    
+    .portfolio_card1:hover > img {
+        transform: scale(1.1);
+    }
+    
+    .portfolio_card2:hover > img {
+        transform: scale(1.1);
+    }
+    
+    .portfolio_card1:hover .card_overlay {
+        transform: translateY(0);
+        transition: 0.5s;
+        opacity: 1;
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
+    }
+
+    .portfolio_card1:hover .card_overlay > h4 {
+        font-size: 16px;
+    }
+
+    .portfolio_card1:hover .card_overlay > button {
+        background: #353535;
+        margin-top: 30px;
+        border-radius: 30px;
+        padding: 8px 12px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        font-size: 16px;
+        margin: 5vh 20px 0 0;
+        color: #EC7D96;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .portfolio_card2:hover .card_overlay {
+        transform: translateY(0);
+        transition: 0.5s;
+        opacity: 1;
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
+        
+    }
+
+    .portfolio_card2:hover .card_overlay > h4 {
+        font-size: 16px;
+    }
+
+    .portfolio_card2:hover .card_overlay > button {
+        background: #353535;
+        margin-top: 30px;
+        border-radius: 30px;
+        padding: 8px 12px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        font-size: 16px;
+        margin: 5vh 20px 0 0;
+        color: #EC7D96;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    
+    .portfolio_card1 > .card_overlay {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        transform: translateY(-45vh);
+        padding: 20px 20px;
+    }
+    .portfolio_card2 > .card_overlay {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        transform: translateY(-45vh);
+        padding: 20px 20px;
+    }
+    
+    .card_overlay > h4 {
+        font-size: 22px;
+    }
+    
+    .card_overlay > button {
+        background: #353535;
+        margin-top: 30px;
+        border-radius: 30px;
+        padding: 10px 20px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        font-size: 20px;
+        margin: 5vh 20px 0 0;
+        color: #EC7D96;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    
+    .card_overlay > button:hover {
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
+    }
+    
+    .card_overlay_item {
+        position: absolute;
+        right: 10px;
+        bottom: 20px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    
+    .card_overlay_item > a {
+        font-size: 20px;
+        color: white;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+    
+    .card_overlay_item > a > span {
+        /* font-size: 20px; */
+        color: rgb(113, 233, 113);
+        padding: 0px 10px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 330px){
+    .portfolio {
+        width: 76%;
+        margin: 0 0 0 0;
+        /* border: 1px solid red; */
+    }
+    
+    .portfolio h3 {
+        margin: 7vh 0 3vh 0;
+        font-size: 26px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+    
+    .portfolio_box {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-bottom: 25px;
+        z-index: 12;
+    }
+    
+    .portfolio_card1, .portfolio_card2 {
+        width: 99.5%;
+        height: 45vh;
+        position: relative;
+        transition: all 0.5s;
+        overflow: hidden;
+        border-radius: 9px;
+        margin: 5px 0;
+    }
+    
+    .portfolio_card1 > img {
+        width: 100%;
+        height: 100%;
+        transition: 0.4s;
+    }
+    
+    .portfolio_card2 > img {
+        width: 100%;
+        height: 100%;
+        transition: 0.4s;
+    }
+    
+    .portfolio_card1:hover > img {
+        transform: scale(1.1);
+    }
+    
+    .portfolio_card2:hover > img {
+        transform: scale(1.1);
+    }
+    
+    .portfolio_card1:hover .card_overlay {
+        transform: translateY(0);
+        transition: 0.5s;
+        opacity: 1;
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
+    }
+
+    .portfolio_card1:hover .card_overlay > h4 {
+        font-size: 14px;
+    }
+
+    .portfolio_card1:hover .card_overlay > button {
+        background: #353535;
+        margin-top: 30px;
+        border-radius: 30px;
+        padding: 7px 10px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        font-size: 16px;
+        margin: 5vh 20px 0 0;
+        color: #EC7D96;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .portfolio_card2:hover .card_overlay {
+        transform: translateY(0);
+        transition: 0.5s;
+        opacity: 1;
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
+    }
+
+    .portfolio_card2:hover .card_overlay > h4 {
+        font-size: 14px;
+    }
+
+    .portfolio_card2:hover .card_overlay > button {
+        background: #353535;
+        margin-top: 30px;
+        border-radius: 30px;
+        padding: 7px 10px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        font-size: 16px;
+        margin: 5vh 20px 0 0;
+        color: #EC7D96;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    
+    .portfolio_card1 > .card_overlay {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        transform: translateY(-45vh);
+        padding: 20px 20px;
+    }
+    .portfolio_card2 > .card_overlay {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        transform: translateY(-45vh);
+        padding: 20px 20px;
+    }
+    
+    .card_overlay > h4 {
+        font-size: 22px;
+    }
+    
+    .card_overlay > button {
+        background: #353535;
+        margin-top: 30px;
+        border-radius: 30px;
+        padding: 10px 20px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
+        font-size: 20px;
+        margin: 5vh 20px 0 0;
+        color: #EC7D96;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    
+    .card_overlay > button:hover {
+        box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
+    }
+    
+    .card_overlay_item {
+        position: absolute;
+        right: 10px;
+        bottom: 20px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    
+    .card_overlay_item > a {
+        font-size: 20px;
+        color: white;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+    
+    .card_overlay_item > a > span {
+        /* font-size: 20px; */
+        color: rgb(113, 233, 113);
+        padding: 0px 10px;
+    }
+}

@@ -1,0 +1,218 @@
+.home_animation {
+    width: 300px;
+    height: 60px;
+    margin-left: 40vh;
+    position: relative;
+}
+
+.animate {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 20px solid coral;
+    position: absolute;
+    left: 0;
+    top: -60px;
+    animation: mymove 8s infinite linear forwards;
+}
+
+@keyframes mymove {
+    0% {
+        left: 0px;
+    }
+
+    50% {
+        left: 180px;
+    }
+}
+
+
+
+
+/*RESPONSIVE*/
+@media screen and (max-width: 1200px){
+    
+}
+@media screen and (max-width: 1024px){
+    
+}
+@media screen and (max-width: 976px){
+    .home_animation {
+        width: 80px;
+        height: 60px;
+        margin: 0;
+        position: relative;
+    }
+    
+    .animate {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 18px solid coral;
+        position: absolute;
+        left: 0;
+        top: -60px;
+        animation: mymove 8s infinite linear forwards;
+    }
+}
+@media screen and (max-width: 767px){
+    .home_animation {
+        width: 80px;
+        height: 60px;
+        margin: 0;
+        position: relative;
+    }
+    
+    .animate {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        border: 15px solid coral;
+        position: absolute;
+        left: 0;
+        top: -60px;
+        animation: mymove 8s infinite linear forwards;
+    }
+}
+@media screen and (max-width: 501px){
+    .home_animation {
+        width: 80px;
+        height: 60px;
+        margin: 0;
+        position: relative;
+    }
+    
+    .animate {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        border: 15px solid coral;
+        position: absolute;
+        left: 0;
+        top: -60px;
+        animation: mymove 8s infinite linear forwards;
+    }
+    @keyframes mymove {
+        0% {
+            left: 0px;
+        }
+    
+        50% {
+            left: 200px;
+        }
+    }
+}
+@media screen and (max-width: 460px){
+    .home_animation {
+        width: 80px;
+        height: 60px;
+        margin: 0;
+        position: relative;
+    }
+    
+    .animate {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        border: 15px solid coral;
+        position: absolute;
+        left: 0;
+        top: -60px;
+        animation: mymove 8s infinite linear forwards;
+    }
+    @keyframes mymove {
+        0% {
+            left: 0px;
+        }
+    
+        50% {
+            left: 200px;
+        }
+    }
+}
+@media screen and (max-width: 400px){
+    .home_animation {
+        width: 80px;
+        height: 60px;
+        margin: 0;
+        position: relative;
+    }
+    
+    .animate {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        border: 15px solid coral;
+        position: absolute;
+        left: 0;
+        top: -60px;
+        animation: mymove 8s infinite linear forwards;
+    }
+    @keyframes mymove {
+        0% {
+            left: 0px;
+        }
+    
+        50% {
+            left: 170px;
+        }
+    }
+}
+@media screen and (max-width: 370px){
+    .home_animation {
+        width: 80px;
+        height: 60px;
+        margin: 0;
+        position: relative;
+    }
+    
+    .animate {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        border: 15px solid coral;
+        position: absolute;
+        left: 0;
+        top: -60px;
+        animation: mymove 8s infinite linear forwards;
+    }
+    
+    @keyframes mymove {
+        0% {
+            left: 0px;
+        }
+    
+        50% {
+            left: 150px;
+        }
+    }
+}
+@media (min-width: 300px) and (max-width: 330px){
+    .home_animation {
+        width: 80px;
+        height: 60px;
+        margin: 0;
+        position: relative;
+    }
+    
+    .animate {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        border: 15px solid coral;
+        position: absolute;
+        left: 0;
+        top: -60px;
+        animation: mymove 8s infinite linear forwards;
+    }
+    
+    @keyframes mymove {
+        0% {
+            left: 0px;
+        }
+    
+        50% {
+            left: 130px;
+        }
+    }
+}

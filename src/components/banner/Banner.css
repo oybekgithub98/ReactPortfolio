@@ -1,0 +1,167 @@
+.banner {
+    width: 100%;
+    background-color: rgb(53,53,53);
+    color: rgba(255, 255, 255, 0.89);
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+.banner_wrapper {
+    width: 95%;
+    margin-left: 70px;
+    z-index: 9;
+}
+
+/* LIGHT MODE AND DARK MODE  */
+
+.bannerLight {
+    background-color: #F7F7F7;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.89);
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+.bannerLight > .banner_wrapper {
+    width: 95%;
+    margin-left: 70px;
+    z-index: 9;
+}
+
+
+/*RESPONSIVE*/
+@media screen and (max-width: 1200px){
+    .banner {
+        width: 100%;
+        background-color: rgb(53,53,53);
+        color: rgba(255, 255, 255, 0.89);
+        margin-top: 60px;
+        overflow: hidden;
+    }
+    
+    .banner_wrapper {
+        width: 95%;
+        margin-left: 70px;
+        z-index: 9;
+    }
+}
+@media screen and (max-width: 1024px){
+    .banner {
+        width: 100%;
+        background-color: rgb(53,53,53);
+        color: rgba(255, 255, 255, 0.89);
+        margin-top: 75px;
+        overflow: hidden;
+    }
+    
+    .banner_wrapper {
+        width: 98%;
+        margin-left: 70px;
+        z-index: 9;
+    }
+}
+@media screen and (max-width: 976px){
+    .banner {
+        width: 100%;
+        background-color: rgb(53,53,53);
+        color: rgba(255, 255, 255, 0.89);
+        margin-top: 75px;
+        overflow: hidden;
+    }
+    
+    .banner_wrapper {
+        width: 98%;
+        margin-left: 70px;
+        z-index: 9;
+    }
+}
+@media screen and (max-width: 767px){
+    .banner {
+        width: 100%;
+        background-color: rgb(53,53,53);
+        color: rgba(255, 255, 255, 0.89);
+        margin-top: 70px;
+        overflow: hidden;
+    }
+    
+    .banner_wrapper {
+        width: 98%;
+        margin-left: 70px;
+        z-index: 9;
+    }
+}
+@media screen and (max-width: 501px){
+    .banner {
+        width: 100%;
+        background-color: rgb(53,53,53);
+        color: rgba(255, 255, 255, 0.89);
+        margin-top: 70px;
+        overflow: hidden;
+    }
+    
+    .banner_wrapper {
+        width: 98%;
+        margin-left: 70px;
+        z-index: 9;
+    }
+}
+@media screen and (max-width: 460px){
+    .banner {
+        width: 100%;
+        background-color: rgb(53,53,53);
+        color: rgba(255, 255, 255, 0.89);
+        margin-top: 70px;
+        overflow: hidden;
+    }
+    
+    .banner_wrapper {
+        width: 98%;
+        margin-left: 70px;
+        z-index: 9;
+    }
+}
+@media screen and (max-width: 400px){
+    .banner {
+        width: 100%;
+        background-color: rgb(53,53,53);
+        color: rgba(255, 255, 255, 0.89);
+        margin-top: 70px;
+        overflow: hidden;
+    }
+    
+    .banner_wrapper {
+        width: 98%;
+        margin-left: 70px;
+        z-index: 9;
+    }
+}
+@media screen and (max-width: 370px){
+    .banner {
+        width: 100%;
+        background-color: rgb(53,53,53);
+        color: rgba(255, 255, 255, 0.89);
+        margin-top: 60px;
+        overflow: hidden;
+    }
+    
+    .banner_wrapper {
+        width: 98%;
+        margin-left: 70px;
+        z-index: 9;
+    }
+}
+@media (min-width: 300px) and (max-width: 330px){
+    .banner {
+        width: 100%;
+        background-color: rgb(53,53,53);
+        color: rgba(255, 255, 255, 0.89);
+        margin-top: 60px;
+        overflow: hidden;
+    }
+    
+    .banner_wrapper {
+        width: 98%;
+        margin-left: 70px;
+        z-index: 9;
+    }
+}
