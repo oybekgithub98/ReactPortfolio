@@ -8,7 +8,7 @@ const About = () => {
     console.log(dark, dispatch);
 
     return (
-        <div className={!dark.dark ? classes.about : classes.aboutLight}>
+        <div id="about" className={!dark.dark ? classes.about : classes.aboutLight}>
             <h3>About Me</h3>
             <div className={classes.about_wrapper}>
                 <div className={classes.skills}>

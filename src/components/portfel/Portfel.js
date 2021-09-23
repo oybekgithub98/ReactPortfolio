@@ -16,7 +16,7 @@ const Portfel = () => {
     console.log(dark, dispatch);
 
     return (
-        <div className={ ! dark.dark ? classes.portfolio : classes.portLight}>
+        <div id="portfolio" className={ ! dark.dark ? classes.portfolio : classes.portLight}>
             <h3>My Portfolio</h3>
             <div className={classes.portfolio_box}>
                 <div className={classes.portfolio_card2}>

@@ -5,7 +5,17 @@
     left: 0;
     height: 100vh;
     width: 70px;
-    background-color: rgb(7, 64, 233);
+    transition: all 0.5s;
+    z-index: 905;
+}
+
+.sidebarLight {
+    background-color: #F7F7F7;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    height: 100vh;
+    width: 70px;
     transition: all 0.5s;
     z-index: 905;
 }

@@ -9,7 +9,7 @@ const Contact = () => {
     console.log(dark, dispatch);
 
     return (
-        <div className={ ! dark.dark ? classes.contact : classes.contactLight}>
+        <div id="contact" className={ ! dark.dark ? classes.contact : classes.contactLight}>
             <h3>Contact</h3>
             <div className={classes.contact_wrapper}>
                 <div className={classes.contact_image}>

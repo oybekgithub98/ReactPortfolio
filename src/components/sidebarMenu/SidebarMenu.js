@@ -5,7 +5,7 @@ import About from '../../assets/about.png';
 import Services from '../../assets/services.png';
 import Portfolio from '../../assets/portfolio.png';
 import Contact from '../../assets/contact.png';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import { useStateValue } from '../../StateProvider';
 
 const SidebarMenu = () => {
@@ -19,7 +19,7 @@ const SidebarMenu = () => {
                 <div className="sidebar_menu_wrapper">
                     <div className="menu">
                         <div className="menu_item_left" >
-                            <Link className="home_item" href="https://faxriyorcreateportfolio.netlify.app/images/3d%20images/@foydali_link%2031.png">Home</Link>
+                            <a className="home_item" href="#home">Home</a>
                         </div>
                         <div className="menu_item_right">
                             <img src={Home} alt={Home} />
@@ -27,7 +27,7 @@ const SidebarMenu = () => {
                     </div>
                     <div className="menu">
                         <div className="menu_item_left">
-                            <Link href="https://www.kun.uz">About me</Link>
+                            <a href="#about">About me</a>
                         </div>
                         <div className="menu_item_right">
                             <img src={About} alt={About} />
@@ -35,7 +35,7 @@ const SidebarMenu = () => {
                     </div>
                     <div className="menu">
                         <div className="menu_item_left">
-                            <Link href="https://www.kun.uz">Services</Link>
+                            <a href="#services">Services</a>
                         </div>
                         <div className="menu_item_right">
                             <img src={Services} alt={Services} />
@@ -43,7 +43,7 @@ const SidebarMenu = () => {
                     </div>
                     <div className="menu">
                         <div className="menu_item_left">
-                            <Link href="https://www.kun.uz">Porfolio</Link>
+                            <a href="#portfolio">Porfolio</a>
                         </div>
                         <div className="menu_item_right">
                             <img src={Portfolio} alt={Portfolio} />
@@ -51,7 +51,7 @@ const SidebarMenu = () => {
                     </div>
                     <div className="menu">
                         <div className="menu_item_left">
-                            <Link href="https://www.kun.uz">Contacts</Link>
+                            <a href="#contact">Contacts</a>
                         </div>
                         <div className="menu_item_right">
                             <img src={Contact} alt={Contact} />

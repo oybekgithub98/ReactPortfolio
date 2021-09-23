@@ -9,7 +9,7 @@ const Services = () => {
     console.log(dark, dispatch);
 
     return (
-        <div className={! dark.dark ? classes.services : classes.servicesLight}>
+        <div id="services" className={! dark.dark ? classes.services : classes.servicesLight}>
             <h3>Servicees</h3>
             <div className={classes.services_box}>
                 <div className={classes.services_card}>

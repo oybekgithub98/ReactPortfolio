@@ -26,7 +26,7 @@ const Home = () => {
     }
 
     return (
-        <div className={!dark.dark ? "home" : "homeLight"}>
+        <div id="home" className={!dark.dark ? "home" : "homeLight"}>
             <div className="home_wrapper">
                 <Figure1 />
                 <div className="home_body">
