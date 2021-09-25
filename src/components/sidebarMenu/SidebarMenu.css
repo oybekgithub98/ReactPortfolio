@@ -81,7 +81,7 @@
 }
 
 .menu_active:hover {
-    animation: menuAnimateColor 0.5s linear forwards;
+    animation: menuAnimateColor 0.5s linear forwards !important;
     background: rgb(43, 44, 47);
     background: linear-gradient(90deg, rgba(43, 44, 47) 0%, rgba(43, 44, 47) 59%, rgba(43, 44, 47) 100%); 
 }
@@ -156,6 +156,35 @@
     width: 100%;
 }
 
+
+/* LIGHT MODE RARK MODE */
+.activeSidebarId {
+    background-color: #EEECEC;
+    box-shadow: 1px 10px 10px 0.1px grey;
+}
+
+.activeSidebarId > .sidebar_menu_wrapper > .menu:hover {
+    background: #EEECEC;
+    background: linear-gradient(90deg, #EEECEC 0%, #EEECEC 59%, #EEECEC 100%); 
+}
+
+.activeSidebarId > .sidebar_menu_wrapper > .menu > .menu_item_left > a{
+    background-color: #a1a1a1;
+}
+
+.activeSidebarId > .sidebar_menu_wrapper > .menu > .menu_item_right {
+    border: 2px solid #707070;
+}
+
+.activeSidebarId > .sidebar_menu_wrapper > .menu > .activeMenu:hover  {
+    background-color: red !important;
+}
+
+.activeSidebarId > .activeMenu {
+    left: 0;
+    top: 0px;
+    width: 250px;
+}
 
 /*RESPONSIVE*/
 @media screen and (max-width: 1200px){

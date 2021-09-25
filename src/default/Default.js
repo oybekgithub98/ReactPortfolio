@@ -8,7 +8,6 @@ const Default = () => {
 
     const [menuOpen, setMenuOpen] = useState(false);
 
-
     const openMenu = (e) => {
         const sidebar = document.querySelector('.sidebar_menu');
 

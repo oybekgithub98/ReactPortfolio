@@ -1,17 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Figure1 from '../animation/figure1/Figure1';
 import Figure2 from '../animation/figure2/Figure2';
 import TypingEffect from 'new-react-typing-effect';
 import homeImage from '../../assets/f934535398f235346dbe6466790a913f.jpg';
-// import { FaCog } from 'react-icons/fa';
 import { FiSun } from 'react-icons/fi';
 import { useStateValue } from '../../StateProvider';
 import './Home.css';
 
 const Home = () => {
     const [dark, dispatch] = useStateValue();
+    const [state, setState] = useState(false);
+    console.log(state)
 
     const shareDarkMode = () => {
+        const sidebarId = document.getElementById('sidebar_menu');
         dispatch({
             type: "SET_DARK",
             dark: !dark.dark
@@ -19,9 +21,14 @@ const Home = () => {
 
         if (localStorage.getItem('theme') === "light") {
             localStorage.setItem('theme', "dark")
+            sidebarId.classList.add('activeSidebarId')
+            setState(true)
+
         }
         else {
             localStorage.setItem('theme', "light")
+            sidebarId.classList.remove('activeSidebarId')
+            setState(false)
         }
     }
 
@@ -34,9 +41,7 @@ const Home = () => {
                         <p>I am</p>
                         <p>Soginboyev Oybek</p>
                         <div className="home_typing">
-                            <p>I'm a
-
-                            </p>
+                            <p>I'm a</p>
                             <span>
                                 <TypingEffect
                                     messages={
@@ -88,14 +93,14 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            
+
             {/* theme */}
             <div className="theme">
                 <div className="icon" onClick={shareDarkMode}>
                     <FiSun style={{ fontSize: "33px" }} />
                 </div>
             </div>
-            
+
         </div>
     )
 }
