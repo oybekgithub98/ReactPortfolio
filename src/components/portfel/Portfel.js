@@ -7,8 +7,8 @@ import City from '../../assets/city.jpg';
 import TelegramImage from '../../assets/telegramImage.jpg';
 import WhatsappImage from '../../assets/whatsappImage.jpg';
 import { FaGithub } from 'react-icons/fa';
-import {useStateValue} from '../../StateProvider';
-
+import { useStateValue } from '../../StateProvider';
+// import { Link } from "react-router-dom";
 
 const Portfel = () => {
 
@@ -16,14 +16,18 @@ const Portfel = () => {
     console.log(dark, dispatch);
 
     return (
-        <div id="portfolio" className={ ! dark.dark ? classes.portfolio : classes.portLight}>
+        <div id="portfolio" className={!dark.dark ? classes.portfolio : classes.portLight}>
             <h3>My Portfolio</h3>
             <div className={classes.portfolio_box}>
                 <div className={classes.portfolio_card2}>
-                    <img src={TelegramImage} alt="" />
+                    <img src={TelegramImage} alt="telegram image" />
                     <div className={classes.card_overlay}>
                         <h4>This project was built using HTML, CSS, BOOTSTRAP and JAVASCRIPT</h4>
-                        <button>View Project</button>
+                        {/* <Link> */}
+                            <a href="sajhksdjkasdkk" target="_blank">
+                                <button>View Project</button>
+                            </a>
+                        {/* </Link> */}
                         <div className={classes.card_overlay_item}>
                             <a href="https://github.com/oybekgithub98/reactportfolio/tree/main/src/components/home">
                                 <span>Github code</span>
@@ -45,12 +49,12 @@ const Portfel = () => {
                         </div>
                     </div>
                 </div>
-                
+
                 <div className={classes.portfolio_card2}>
                     <img src={Quran} alt="" />
                     <div className={classes.card_overlay}>
                         <h4>This project was built using HTML SCSS and React JS</h4>
-                        <button>View Project</button>
+                        <a href="https://instagramclone12345.vercel.app/" target="blank">View Project</a>
                         <div className={classes.card_overlay_item}>
                             <a href="https://github.com/oybekgithub98/reactportfolio/tree/main/src/components/home">
                                 <span>Github code</span>

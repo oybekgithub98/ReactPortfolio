@@ -140,7 +140,7 @@
 
 
 .experience_items > h3:last-child {
-    color: coral;
+    color: coral
 }
 
 .experience_box {
@@ -283,7 +283,7 @@
 }
 
 .aboutLight > .about_wrapper > .experience > .experience_items > h3:last-child {
-    color: coral;
+    color: #353535;
 }
 
 .aboutLight > .about_wrapper > .experience > .experience_box {

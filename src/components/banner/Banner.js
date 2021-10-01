@@ -10,8 +10,7 @@ import './Banner.css';
 
 const Banner = () => {
 
-    const [dark, dispatch] = useStateValue();
-    console.log(dark, dispatch);
+    const [dark] = useStateValue();
 
     return (
         <div className={ ! dark.dark ? "banner" : "bannerLight"}>

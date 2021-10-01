@@ -9,17 +9,17 @@ const Footer = () => {
     console.log(dark, dispatch);
 
     // clock function
-    let time = new Date().toLocaleString();
-    const [cdata, setCdata] = useState(time);
-    console.log(cdata)
+    // let time = new Date().toLocaleString();
+    // const [cdata, setCdata] = useState(time);
+    // console.log(cdata)
 
-    const UpDataTime = () => {
+    // const UpDataTime = () => {
 
-        time = new Date().toLocaleTimeString();
-        setCdata(time)
-    }
+    //     time = new Date().toLocaleTimeString();
+    //     setCdata(time)
+    // }
 
-    setInterval(UpDataTime, 1000);
+    // setInterval(UpDataTime, 1000);
 
 
     return (
@@ -39,9 +39,9 @@ const Footer = () => {
                         <FaTwitter style={{ fontSize: "35px" }} className={classes.twit} />
                     </a>
                 </div>
-                <div className={classes.copy_right}>
+                {/* <div className={classes.copy_right}>
                     <h3>{time}</h3>
-                </div>
+                </div> */}
             </div>
         </div>
     )

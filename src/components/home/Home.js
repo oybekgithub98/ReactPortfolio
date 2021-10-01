@@ -1,35 +1,48 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Figure1 from '../animation/figure1/Figure1';
 import Figure2 from '../animation/figure2/Figure2';
 import TypingEffect from 'new-react-typing-effect';
 import homeImage from '../../assets/f934535398f235346dbe6466790a913f.jpg';
 import { FiSun } from 'react-icons/fi';
+import { IoIosMoon } from 'react-icons/io';
 import { useStateValue } from '../../StateProvider';
 import './Home.css';
+import { TimelineLite } from 'gsap';
 
 const Home = () => {
     const [dark, dispatch] = useStateValue();
-    const [state, setState] = useState(false);
-    console.log(state)
+    const gp = new TimelineLite()
+    const [sun, setSun] = useState(false);
+
+    useEffect(() => {
+        gp
+            .from('.theme', { duration: 1, y: '-200px', ease: 'bounse', delay: 0.7, rotation: '360' })
+            .from('.I_am', { duration: 1, x: '-200px', delay: 0.7 })
+            .from('.homeText', { duration: 1, x: '-500px', delay: 0.7 })
+    }, [])
+
+    // const [state, setState] = useState(false);
+    // console.log(state)
 
     const shareDarkMode = () => {
+        setSun(current => !current);
         const sidebarId = document.getElementById('sidebar_menu');
         dispatch({
             type: "SET_DARK",
             dark: !dark.dark
         })
 
-        if (localStorage.getItem('theme') === "light") {
-            localStorage.setItem('theme', "dark")
-            sidebarId.classList.add('activeSidebarId')
-            setState(true)
+        // if (localStorage.getItem('theme') === "light") {
+        //     localStorage.setItem('theme', "dark")
+        //     sidebarId.classList.add('activeSidebarId')
+        //     setState(true)
 
-        }
-        else {
-            localStorage.setItem('theme', "light")
-            sidebarId.classList.remove('activeSidebarId')
-            setState(false)
-        }
+        // }
+        // else {
+        //     localStorage.setItem('theme', "light")
+        //     sidebarId.classList.remove('activeSidebarId')
+        //     setState(false)
+        // }
     }
 
     return (
@@ -38,8 +51,8 @@ const Home = () => {
                 <Figure1 />
                 <div className="home_body">
                     <div className="home_body_content">
-                        <p>I am</p>
-                        <p>Soginboyev Oybek</p>
+                        <p className="I_am">I am</p>
+                        <p className="homeText">Soginboyev Oybek</p>
                         <div className="home_typing">
                             <p>I'm a</p>
                             <span>
@@ -97,7 +110,13 @@ const Home = () => {
             {/* theme */}
             <div className="theme">
                 <div className="icon" onClick={shareDarkMode}>
-                    <FiSun style={{ fontSize: "33px" }} />
+                    {
+                        !sun ?
+                            <FiSun style={{ fontSize: "33px" }} />
+                            :
+                            <IoIosMoon style={{ fontSize: "33px" }} />
+                    }
+
                 </div>
             </div>
 

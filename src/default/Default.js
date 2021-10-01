@@ -7,6 +7,8 @@ import Banner from '../components/banner/Banner';
 const Default = () => {
 
     const [menuOpen, setMenuOpen] = useState(false);
+    const [menuActive, setMenuActive] = useState(false);
+
 
     const openMenu = (e) => {
         const sidebar = document.querySelector('.sidebar_menu');
@@ -31,11 +33,13 @@ const Default = () => {
                 setMenuOpen(false);
             }
         }
+
+        setMenuActive(current => !current);
     }
 
     return (
         <div>
-            <Header menu={openMenu} />
+            <Header menu={openMenu} menuActive={menuActive} setMenuActive={setMenuActive} />
             <div className="default_banner">
                 <SidebarLeft />
                 <Banner />
