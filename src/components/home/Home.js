@@ -21,7 +21,7 @@ const Home = () => {
             .from('.homeText', { duration: 1, x: '-500px', delay: 0.7 })
     }, [])
 
-    // const [state, setState] = useState(false);
+    const [state, setState] = useState(false);
     // console.log(state)
 
     const shareDarkMode = () => {
@@ -29,20 +29,20 @@ const Home = () => {
         const sidebarId = document.getElementById('sidebar_menu');
         dispatch({
             type: "SET_DARK",
-            dark: !dark.dark
+            dark: localStorage.getItem('theme') === "light"
         })
 
-        // if (localStorage.getItem('theme') === "light") {
-        //     localStorage.setItem('theme', "dark")
-        //     sidebarId.classList.add('activeSidebarId')
-        //     setState(true)
+        if (localStorage.getItem('theme') === "light") {
+            localStorage.setItem('theme', "dark")
+            sidebarId.classList.add('activeSidebarId')
+            setState(true)
 
-        // }
-        // else {
-        //     localStorage.setItem('theme', "light")
-        //     sidebarId.classList.remove('activeSidebarId')
-        //     setState(false)
-        // }
+        }
+        else {
+            localStorage.setItem('theme', "light")
+            sidebarId.classList.remove('activeSidebarId')
+            setState(false)
+        }
     }
 
     return (
@@ -87,7 +87,7 @@ const Home = () => {
                         </div>
 
                         <div className="home_button">
-                            <button>More About Me</button>
+                            <button >More About Me</button>
                             <button>Portfolio</button>
                         </div>
 
@@ -111,7 +111,7 @@ const Home = () => {
             <div className="theme">
                 <div className="icon" onClick={shareDarkMode}>
                     {
-                        !sun ?
+                        !dark.dark  ?
                             <FiSun style={{ fontSize: "33px" }} />
                             :
                             <IoIosMoon style={{ fontSize: "33px" }} />

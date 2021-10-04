@@ -9,17 +9,6 @@
     z-index: 905;
 }
 
-.sidebarLight {
-    background-color: #F7F7F7;
-    position: fixed;
-    top: 80px;
-    left: 0;
-    height: 100vh;
-    width: 70px;
-    transition: all 0.5s;
-    z-index: 905;
-}
-
 
 /*RESPONSIVE*/
 @media screen and (max-width: 1200px){
@@ -129,4 +118,130 @@
         transition: all 0.5s;
         z-index: 905;
     }
+}
+
+
+
+/* LIGHT MODE DARK MODE */
+.sidebarLight {
+    background-color: #F7F7F7;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    height: 100vh;
+    width: 70px;
+    transition: all 0.5s;
+    z-index: 905;
+}
+
+
+/* LIGHT MODE DARK MODE RESPONSIVE */
+
+@media screen and (max-width: 1200px){
+    .sidebarLight {
+        position: fixed;
+        top: 75px;
+        left: 0;
+        height: 100vh;
+        width: 60px;
+        background-color: rgb(43, 44, 47);
+        transition: all 0.5s;
+        z-index: 905;
+    }
+}
+@media screen and (max-width: 1024px){
+   .sidebarLight {
+        position: fixed;
+        top: 75px;
+        left: 0;
+        height: 100vh;
+        width: 60px;
+        background-color: rgb(43, 44, 47);
+        transition: all 0.5s;
+        z-index: 905;
+   }
+}
+@media screen and (max-width: 976px){
+   .sidebarLight {
+        position: fixed;
+        top: 75px;
+        left: 0;
+        height: 100vh;
+        width: 60px;
+        background-color: #F7F7F7;
+        transition: all 0.5s;
+        z-index: 905;
+   }
+}
+@media screen and (max-width: 767px){
+    .sidebarLight {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        height: 100vh;
+        width: 60px;
+        background-color: #F7F7F7;
+        transition: all 0.5s;
+        z-index: 905;
+    }
+}
+@media screen and (max-width: 501px){
+   .sidebarLight {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        height: 100vh;
+        width: 60px;
+        background-color: #F7F7F7;
+        transition: all 0.5s;
+        z-index: 905;
+   }
+}
+@media screen and (max-width: 460px){
+    .sidebarLight {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        height: 100vh;
+        width: 60px;
+        background-color: #F7F7F7;
+        transition: all 0.5s;
+        z-index: 905;
+    }
+}
+@media screen and (max-width: 400px){
+    .sidebarLight {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        height: 100vh;
+        width: 60px;
+        background-color: #F7F7F7;
+        transition: all 0.5s;
+        z-index: 905;
+    }
+}
+@media screen and (max-width: 370px){
+    .sidebarLight {
+        position: fixed;
+        top: 60px;
+        left: 0;
+        height: 100vh;
+        width: 60px;
+        background-color: #F7F7F7;
+        transition: all 0.5s;
+        z-index: 905;
+    }
+}
+@media (min-width: 300px) and (max-width: 330px) {
+   .sidebarLight {
+       position: fixed;
+        top: 60px;
+        left: 0;
+        height: 100vh;
+        width: 60px;
+        background-color: #F7F7F7;
+        transition: all 0.5s;
+        z-index: 905;
+   }
 }

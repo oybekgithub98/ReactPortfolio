@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Default.css';
 import Header from '../components/header/Header';
 import SidebarLeft from '../components/sidebar/SidebarLeft';
 import Banner from '../components/banner/Banner';
+import {useStateValue} from '../StateProvider'
 
 const Default = () => {
 
@@ -36,7 +37,13 @@ const Default = () => {
 
         setMenuActive(current => !current);
     }
-
+    const [dark, dispatch] = useStateValue();
+    useEffect(()=>{
+        dispatch({
+            type: "SET_DARK",
+            dark: localStorage.getItem('theme') === "dark"
+        })
+    }, [])
     return (
         <div>
             <Header menu={openMenu} menuActive={menuActive} setMenuActive={setMenuActive} />

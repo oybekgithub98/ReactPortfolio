@@ -6,7 +6,7 @@ import { useStateValue } from '../../StateProvider';
 const Footer = () => {
 
     const [dark, dispatch] = useStateValue();
-    console.log(dark, dispatch);
+    // console.log(dark, dispatch);
 
     // clock function
     // let time = new Date().toLocaleString();

@@ -1,5 +1,5 @@
 export const initialState = {
-    dark: false
+    dark: false,
 }
 
 const reducer = (state, action) => {
@@ -9,6 +9,7 @@ const reducer = (state, action) => {
                 ...state,
                 dark: action.dark
             }
+    
         default:
             return state
     }

@@ -6,7 +6,7 @@ import { useStateValue } from '../../StateProvider';
 const Contact = () => {
 
     const [dark, dispatch] = useStateValue();
-    console.log(dark, dispatch);
+    // console.log(dark, dispatch);
 
     return (
         <div id="contact" className={ ! dark.dark ? classes.contact : classes.contactLight}>

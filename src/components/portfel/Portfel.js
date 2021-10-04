@@ -13,7 +13,7 @@ import { useStateValue } from '../../StateProvider';
 const Portfel = () => {
 
     const [dark, dispatch] = useStateValue();
-    console.log(dark, dispatch);
+    // console.log(dark, dispatch);
 
     return (
         <div id="portfolio" className={!dark.dark ? classes.portfolio : classes.portLight}>

@@ -62,7 +62,6 @@
     justify-content: center;
     padding: 4vh 10vh 0 0;
     position: relative;
-    /* border: 1px solid red; */
 }
 
 .home_body_image > .item_image {
@@ -140,8 +139,8 @@
 }
 
 .icon {
-    width: 8vh;
-    height: 8vh;
+    width: 50px;
+    height: 50px;
     background-color: #2B2C2F;
     color: #fff;
     display: flex;
@@ -155,59 +154,6 @@
 
 .icon:hover {
     box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
-}
-
-
-
-/* LIGHT MODE */
-.homeLight {
-    background-color: #F7F7F7;
-    color: rgb(70, 70, 70);
-}
-
-.homeLight > .home_wrapper > .home_body > .home_body_content > .home_button > button{
-    background-color: #d6d6d6;
-    box-shadow: -3px -3px 3px rgba(255,255,255,1), 3px 3px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);;
-    color: #353535;
-}
-
-.homeLight > .home_wrapper > .home_body > .home_body_content > .home_button > button:hover {
-    box-shadow:  inset -3px -3px 3px rgba(194, 194, 194, 0.9), inset 3px 3px 3px rgba(23, 23, 24, 0.1);
-}
-
-.homeLight > .home_wrapper > .home_body > .home_body_image > .item_image {
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    border: 16px dashed #dfdfde;
-    box-shadow: 0px 0px 10px 0px coral;
-    position: relative;
-    overflow: hidden;
-} 
-
-.homeLight > .theme {
-    position: fixed;
-    right: 20px;
-    top: 100px;
-    z-index: 80;
-}
-
-.homeLight > .theme > .icon {
-    width: 8vh;
-    height: 8vh;
-    background-color: #F7F7F7;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    margin: 7px 0 7px 0;
-    cursor: pointer;
-    box-shadow: -3px -3px 3px rgb(212, 212, 212), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
-}
-
-.homeLight > .theme > .icon:hover {
-    box-shadow: inset -3px -3px 3px rgba(214, 214, 214, 0.9), inset 3px 3px 3px rgba(23, 23, 24, 0.1);
 }
 
 
@@ -354,8 +300,8 @@
     }
     
     .icon {
-        width: 8vh;
-        height: 8vh;
+        width: 50px;
+        height: 50px;
         background-color: #2B2C2F;
         color: #fff;
         display: flex;
@@ -1690,5 +1636,173 @@
     
     .icon:hover {
         box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
+    }
+}
+
+
+
+
+/* LIGHT MODE */
+.homeLight {
+    background-color: #F7F7F7;
+    color: rgb(70, 70, 70);
+}
+
+.homeLight > .home_wrapper > .home_body > .home_body_content > .home_button > button{
+    background-color: #d6d6d6;
+    box-shadow: -3px -3px 3px rgba(255,255,255,1), 3px 3px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);;
+    color: #353535;
+}
+
+.homeLight > .home_wrapper > .home_body > .home_body_content > .home_button > button:hover {
+    box-shadow:  inset -3px -3px 3px rgba(194, 194, 194, 0.9), inset 3px 3px 3px rgba(23, 23, 24, 0.1);
+}
+
+.homeLight > .home_wrapper > .home_body > .home_body_image > .item_image {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 16px dashed #dfdfde;
+    box-shadow: 0px 0px 10px 0px coral;
+    position: relative;
+    overflow: hidden;
+} 
+
+.homeLight > .theme {
+    position: fixed;
+    right: 20px;
+    top: 100px;
+    z-index: 80;
+}
+
+.homeLight > .theme > .icon {
+    width: 50px;
+    height: 50px;
+    background-color: #F7F7F7;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 7px 0 7px 0;
+    cursor: pointer;
+    box-shadow: -3px -3px 3px rgb(212, 212, 212), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
+}
+
+.homeLight > .theme > .icon:hover {
+    box-shadow: inset -3px -3px 3px rgba(214, 214, 214, 0.9), inset 3px 3px 3px rgba(23, 23, 24, 0.1);
+}
+
+
+/* LIGHT MODE RESPONSIVE */
+
+@media screen and (max-width: 1200px){
+   
+}
+@media screen and (max-width: 1024px){
+    
+}
+@media screen and (max-width: 976px){
+    
+}
+@media screen and (max-width: 767px){
+    
+}
+@media screen and (max-width: 501px){
+   
+}
+@media screen and (max-width: 460px){
+    
+}
+@media screen and (max-width: 400px){
+   
+}
+@media screen and (max-width: 370px){
+   
+}
+@media (min-width: 300px) and (max-width: 330px){
+   .homeLight > .home_wrapper > .home_body > .home_body_content > .home_button > button {
+        background-color: #D6D6D6;
+        border-radius: 30px;
+        padding: 7px 10px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(212, 212, 212), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
+        font-size: 14px;
+        color: black;
+        font-weight: 500;
+        cursor: pointer;
+   }
+
+   .homeLight > .home_wrapper > .home_body > .home_body_content > .home_button > button:first-child {
+        margin-left: -60%;
+    }
+
+   .homeLight > .home_wrapper > .home_body > .home_body_content > .home_button > button:last-child {
+        margin-left: -74%;
+    }
+
+    .homeLight > .theme {
+        position: fixed;
+        right: 8px;
+        top: 80px;
+        z-index: 80;
+    }
+
+    .homeLight > .theme > .icon {
+        width: 40px;
+        height: 40px;
+        background-color: F7F7F7;
+        color: black; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        box-shadow: -3px -3px 3px rgba(255,255,255, 0.1), 1.5px 1.6px 3px rgba(0,0,0,0.8);
+        margin: 7px 0 7px 0;
+        cursor: pointer;
+    }
+
+    .homeLight > .home_wrapper > .home_body > .home_body_image {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 7vh 0 0 20px;
+        position: relative;
+    }
+
+    .homeLight > .home_wrapper > .home_body > .home_body_image > .item_image {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 13px dashed #c5c5c5;
+        box-shadow: 0px 0px 15px 0px coral;
+        position: relative;
+        overflow: hidden;
+        margin-left: -150px;
+    }
+
+    .homeLight > .home_wrapper > .home_body > .home_body_image > .kub {
+        display: none;
+    }
+
+    .homeLight > .home_wrapper > .home_body > .home_body_image > .item_image::after{
+        content: "";
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        top: -15px;
+        left: -15px;
+        background: rgb(18,18,18);
+        background: radial-gradient(circle, rgba(18,18,18,0.11948529411764708) 0%, rgba(22,22,22,1) 100%);
+    }
+
+    .homeLight > .home_wrapper > .home_body > .home_body_image > .item_image > img {
+        width: 100%;
+        border-radius: 50%;
+        z-index: 9;
     }
 }

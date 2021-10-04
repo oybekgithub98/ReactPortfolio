@@ -11,7 +11,7 @@ import { useStateValue } from '../../StateProvider';
 const SidebarMenu = () => {
 
     const [dark] = useStateValue();
-    console.log(dark);
+    // console.log(dark);
 
     return (
         <Router>

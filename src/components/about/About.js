@@ -5,7 +5,7 @@ import { useStateValue } from '../../StateProvider';
 
 const About = () => {
     const [dark, dispatch] = useStateValue();
-    console.log(dark, dispatch);
+    // console.log(dark, dispatch);
 
     const [experienc, SetExperienc] = useState(false);
 
