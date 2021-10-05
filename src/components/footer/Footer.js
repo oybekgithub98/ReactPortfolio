@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import classes from './Footer.module.css';
 import { FaTelegram, FaWhatsapp, FaInstagram, FaTwitter } from 'react-icons/fa';
 import { useStateValue } from '../../StateProvider';
 
 const Footer = () => {
 
-    const [dark, dispatch] = useStateValue();
+    const [dark] = useStateValue();
     // console.log(dark, dispatch);
 
     // clock function

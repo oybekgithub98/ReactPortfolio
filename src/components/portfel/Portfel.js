@@ -12,15 +12,14 @@ import { useStateValue } from '../../StateProvider';
 
 const Portfel = () => {
 
-    const [dark, dispatch] = useStateValue();
-    // console.log(dark, dispatch);
+    const [dark] = useStateValue();
 
     return (
         <div id="portfolio" className={!dark.dark ? classes.portfolio : classes.portLight}>
             <h3>My Portfolio</h3>
             <div className={classes.portfolio_box}>
                 <div className={classes.portfolio_card2}>
-                    <img src={TelegramImage} alt="telegram image" />
+                    <img src={TelegramImage} alt={TelegramImage} />
                     <div className={classes.card_overlay}>
                         <h4>This project was built using HTML, CSS, BOOTSTRAP and JAVASCRIPT</h4>
                         {/* <Link> */}

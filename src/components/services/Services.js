@@ -5,8 +5,7 @@ import { useStateValue } from '../../StateProvider';
 
 const Services = () => {
 
-    const [dark, dispatch] = useStateValue();
-    // console.log(dark, dispatch);
+    const [dark] = useStateValue();
 
     return (
         <div id="services" className={! dark.dark ? classes.services : classes.servicesLight}>

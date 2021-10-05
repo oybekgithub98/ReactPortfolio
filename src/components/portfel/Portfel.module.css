@@ -130,23 +130,6 @@
 }
 
 
-/* LIGHT MODE AND DARK MODE */
-.portLight {
-    background-color: #F7F7F7;
-    width: 84%;
-    margin: 0 0 0 10vh;
-}
-
-.portLight h3 {
-    margin: 12vh 0 6vh 0;
-    font-size: 33px;
-    font-weight: bold;
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
-    color: #353535;
-}
-
-
 /*RESPONSIVE*/
 @media screen and (max-width: 1200px){
     .portfolio {
@@ -1578,4 +1561,147 @@
         color: rgb(113, 233, 113);
         padding: 0px 10px;
     }
+}
+
+
+
+
+/* LIGHT MODE AND DARK MODE */
+.portLight {
+    background-color: #F7F7F7;
+    width: 84%;
+    margin: 0 0 0 10vh;
+}
+
+.portLight h3 {
+    margin: 12vh 0 6vh 0;
+    font-size: 33px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    color: #353535;
+}
+
+
+
+
+/* LIGHT MODE AND DARK MODE RESPONSIVE*/
+
+@media screen and (max-width: 1200px){
+    .portLight {
+        width: 84%;
+        margin: 0 0 0 10vh
+    }
+    
+    .portLight > h3 {
+        margin: 12vh 0 6vh 0;
+        font-size: 33px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+}
+@media screen and (max-width: 1024px){
+    .portLight {
+        width: 84%;
+        margin: 0 0 0 10vh
+    }
+    
+    .portLight > h3 {
+        margin: 12vh 0 6vh 0;
+        font-size: 33px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+}
+@media screen and (max-width: 976px){
+    .portLight {
+        width: 90%;
+        margin: 0 0 0 8px;
+    }
+    
+    .portLight > h3 {
+        margin: 12vh 0 6vh 0;
+        font-size: 33px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+}
+@media screen and (max-width: 767px){
+    .portLight {
+        width: 86.5%;
+        margin: 0 0 0 0;
+    }
+    
+    .portLight > h3 {
+        margin: 7vh 0 3vh 0;
+        font-size: 26px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+}
+@media screen and (max-width: 501px){
+    .portLight {
+        width: 84.3%;
+        margin: 0 0 0 0;
+    }
+    
+    .portLight > h3 {
+        margin: 7vh 0 3vh 0;
+        font-size: 26px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+}
+@media screen and (max-width: 460px){
+    .portLight {
+        width: 81.5%;
+        margin: 0 0 0 0;
+    }
+    
+    .portLight > h3 {
+        margin: 7vh 0 3vh 0;
+        font-size: 26px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+}
+@media screen and (max-width: 400px){
+    .portLight {
+        width: 81.1%;
+        margin: 0 0 0 0;
+    }
+    
+    .portLight > h3 {
+        margin: 7vh 0 3vh 0;
+        font-size: 26px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+}
+@media screen and (max-width: 370px){
+    .portLight {
+        width: 81.1%;
+        margin: 0 0 0 0;
+        /* border: 1px solid red; */
+    }
+    
+    .portLight > h3 {
+        margin: 7vh 0 3vh 0;
+        font-size: 26px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+}
+@media (min-width: 300px) and (max-width: 330px){
+   .portLight {
+        width: 76%;
+        margin: 0 0 0 0;
+   }
+
+   .portLight > h3 {
+        margin: 7vh 0 3vh 0;
+        font-size: 26px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+   }
 }

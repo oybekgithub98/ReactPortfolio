@@ -4,7 +4,7 @@ import { useStateValue } from '../../StateProvider';
 
 
 const About = () => {
-    const [dark, dispatch] = useStateValue();
+    const [dark] = useStateValue();
 
     const [experienc, SetExperienc] = useState(false);
 

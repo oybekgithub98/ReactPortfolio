@@ -12,8 +12,9 @@ import { TimelineLite } from 'gsap';
 const Home = () => {
     const [dark, dispatch] = useStateValue();
     const gp = new TimelineLite()
-    const [sun, setSun] = useState(false);
-
+    const [state, setState] = useState(false);
+    console.log(state)
+    
     useEffect(() => {
         gp
             .from('.theme', { duration: 1, y: '-200px', ease: 'bounse', delay: 0.7, rotation: '360' })
@@ -21,11 +22,9 @@ const Home = () => {
             .from('.homeText', { duration: 1, x: '-500px', delay: 0.7 })
     }, [])
 
-    const [state, setState] = useState(false);
-    // console.log(state)
+   
 
     const shareDarkMode = () => {
-        setSun(current => !current);
         const sidebarId = document.getElementById('sidebar_menu');
         dispatch({
             type: "SET_DARK",

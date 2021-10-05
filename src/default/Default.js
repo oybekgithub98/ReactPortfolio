@@ -38,6 +38,7 @@ const Default = () => {
         setMenuActive(current => !current);
     }
     const [dark, dispatch] = useStateValue();
+    console.log(dark)
     useEffect(()=>{
         dispatch({
             type: "SET_DARK",

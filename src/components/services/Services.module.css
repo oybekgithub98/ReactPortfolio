@@ -62,74 +62,6 @@
 }
 
 
-/* LIGHT MODE ANG DARK MODE */
-.servicesLight {
-    width: 84%;
-    margin: 0 0 0 10vh;
-    background-color: #F7F7F7;
-}
-
-.servicesLight > h3 {
-    margin: 12vh 0 6vh 0;
-    font-size: 33px;
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
-    color: black;
-}
-
-.servicesLight > .services_box {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.servicesLight > .services_box > .services_card {
-    background-color: #F7F7F7;
-    box-shadow: -3px -3px 3px rgba(255,255,255,1), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
-}
-
-.servicesLight > .services_box > .services_card:hover {
-    box-shadow: inset -3px -3px 3px rgba(255,255,255,.9), inset 3px 3px 3px rgba(23, 23, 24, 0.1);
-}
-
-.servicesLight > .services_box > .services_card > .services_icons {
-    width: 100px;
-    height: 100px;
-    margin: 40px;
-    margin-left: calc(calc(100% - 100px) / 2);
-    background-color: #F7F7F7;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: -3px -3px 3px rgba(255,255,255,1), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
-    color: #353535;
-}
-
-.servicesLight > .services_box > .services_card > .services_icons:hover {
-    box-shadow: inset -3px -3px 3px rgba(255,255,255,.9), inset 3px 3px 3px rgba(23, 23, 24, 0.1);
-}
-
-/* .services_icons:hover {
-    box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
-} */
-
-.servicesLight > .services_box > .services_card > h3 {
-    font-size: 16px;
-    margin-bottom: 10px;
-    color: #353535;
-}
-
-.servicesLight > .services_box > .services_card > p {
-    font-size: 14px;
-    color: #353535;
-}
-
-
-
-
-
 /*RESPONSIVE*/
 @media screen and (max-width: 1200px){
     .services {
@@ -697,5 +629,187 @@
     
     .services_card > p {
         font-size: 14px;
+    }
+}
+
+/* LIGHT MODE ANG DARK MODE */
+.servicesLight {
+    width: 84%;
+    margin: 0 0 0 10vh;
+    background-color: #F7F7F7;
+}
+
+.servicesLight > h3 {
+    margin: 12vh 0 6vh 0;
+    font-size: 33px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    color: black;
+}
+
+.servicesLight > .services_box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.servicesLight > .services_box > .services_card {
+    background-color: #F7F7F7;
+    box-shadow: -3px -3px 3px rgba(255,255,255,1), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
+}
+
+.servicesLight > .services_box > .services_card:hover {
+    box-shadow: inset -3px -3px 3px rgba(255,255,255,.9), inset 3px 3px 3px rgba(23, 23, 24, 0.1);
+}
+
+.servicesLight > .services_box > .services_card > .services_icons {
+    width: 100px;
+    height: 100px;
+    margin: 40px;
+    margin-left: calc(calc(100% - 100px) / 2);
+    background-color: #F7F7F7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -3px -3px 3px rgba(255,255,255,1), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
+    color: #353535;
+}
+
+.servicesLight > .services_box > .services_card > .services_icons:hover {
+    box-shadow: inset -3px -3px 3px rgba(255,255,255,.9), inset 3px 3px 3px rgba(23, 23, 24, 0.1);
+}
+
+.servicesLight > .services_box > .services_card > h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #353535;
+}
+
+.servicesLight > .services_box > .services_card > p {
+    font-size: 14px;
+    color: #353535;
+}
+
+/* LIGHT MODE AND DARK MODE RESPONSIVE*/
+
+@media screen and (max-width: 1200px){
+    .servicesLight {
+        margin: 6vh 0 0 0;
+        width: 84%;
+        margin: 0 0 0 10vh
+    }
+
+    .servicesLight > h3 {
+        margin: 12vh 0 6vh 0;
+        font-size: 33px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+}
+@media screen and (max-width: 1024px){
+    .servicesLight {
+        margin: 6vh 0 0 0;
+        width: 84%;
+        margin: 0 0 0 10vh
+    }
+
+    .servicesLight > h3 {
+        margin: 12vh 0 6vh 0;
+        font-size: 33px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+}
+@media screen and (max-width: 976px){
+    .servicesLight {
+        width: 90%;
+        margin: 0 0 0 8px;
+    }
+
+    .servicesLight > h3 {
+        margin: 12vh 0 6vh 0;
+        font-size: 33px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+}
+@media screen and (max-width: 767px){
+   .servicesLight {
+        width: 87.8%;
+        margin: 0;
+   }
+
+   .servicesLight > h3 {
+        margin: 8vh 0 2vh 0;
+        font-size: 26px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+}
+@media screen and (max-width: 501px){
+   .servicesLight {
+        width: 85.6%;
+        margin: 0;
+   }
+
+   .servicesLight > h3 {
+        margin: 8vh 0 2vh 0;
+        font-size: 26px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+}
+@media screen and (max-width: 460px){
+    .servicesLight {
+        width: 82.5%;
+        margin: 0;
+    }
+
+    .servicesLight > h3 {
+        margin: 8vh 0 2vh 0;
+        font-size: 26px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+}
+@media screen and (max-width: 400px){
+   .servicesLight {
+        width: 82%;
+        margin: 0;
+   }
+
+   .servicesLight > h3 {
+        margin: 8vh 0 2vh 0;
+        font-size: 26px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+}
+@media screen and (max-width: 370px){
+    .servicesLight {
+        width: 80%;
+        margin: 0;
+    }
+
+    .servicesLight > h3 {
+        margin: 8vh 0 2vh 0;
+        font-size: 26px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+}
+@media (min-width: 300px) and (max-width: 330px){
+   .servicesLight {
+        width: 77%;
+        margin: 0;
+   }
+
+   .servicesLight > h3 {
+        margin: 8vh 0 2vh 0;
+        font-size: 26px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
     }
 }

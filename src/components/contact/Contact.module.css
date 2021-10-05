@@ -92,107 +92,6 @@ textarea::placeholder {
     box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);   
 }
 
-/* LIGHT MODE AND DARK MODE */
-.contactLight {
-    background-color: #F7F7F7;
-    width: 84%;
-    margin: 0 0 0 10vh;
-}
-
-.contactLight > h3 {
-    margin: 12vh 0 6vh 0;
-    font-size: 35px;
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
-    color: #353535;
-}
-
-.contactLight > .contact_wrapper {
-    width: 100%;
-    display: flex;
-}
-
-.contactLight > .contact_wrapper > .contact_image {
-    width: 50%;
-}
-
-.contactLight > .contact_wrapper > .contact_image > img {
-    width: 100%;
-}
-
-.contactLight > .contact_wrapper > .contact_form {
-    width: 50%;
-}
-
-.contactLight > .contact_wrapper > .contact_form > form {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Sarala', sans-serif;
-    width: 96%;
-    margin: auto;
-    margin: 20px 0 0 20px;
-}
-
-.contactLight > .contact_wrapper > .contact_form > form > input {
-    display: block;
-    width: 100%;
-    padding: 16px 8px;
-    margin: 7px 0;
-    border-radius: 10px;
-    color: #353535;
-    font-size: 25px;
-    outline: none;
-    border: none;
-    background-color: #F7F7F7;
-    text-indent: 10px;
-    font-family: sans-serif;
-    box-shadow: -3px -3px 3px rgba(255,255,255,1), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
-}
-
-.contactLight > .contact_wrapper > .contact_form > form > input:hover {
-    box-shadow: inset -3px -3px 3px rgba(255,255,255,.9), inset 3px 3px 3px rgba(23, 23, 24, 0.1);
-}
-
-.contactLight > .contact_wrapper > .contact_form > form > textarea{
-    height: 200px;
-    background: #353535;
-    border-radius: 10px;
-    box-shadow: -3px -3px 3px rgba(255,255,255,1), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
-    font-size: 25px;
-    padding: 16px 8px;
-    margin: 5px 0;
-    outline: none;
-    border: none;
-    text-indent: 10px;
-    color: #353535;
-    background-color: #F7F7F7;
-}
-
-.contactLight > .contact_wrapper > .contact_form > form > textarea:hover {
-    box-shadow: inset -3px -3px 3px rgba(255,255,255,.9), inset 3px 3px 3px rgba(23, 23, 24, 0.1);
-}
-
-.contactLight > .contact_wrapper > .contact_form > button {
-    font-size: 25px;
-    color: #353535;
-    background-color: #F7F7F7;
-    margin: 30px 0 0 5%;
-    border-radius: 30px;
-    padding: 10px;
-    border: none;
-    transition: box-shadow .2s linear;
-    border: none;
-    outline: none;
-    box-shadow: -3px -3px 3px rgba(255,255,255,1), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
-}
-
-.contactLight > .contact_wrapper > .contact_form > button:hover {
-    box-shadow: inset -3px -3px 3px rgba(255,255,255,.9), inset 3px 3px 3px rgba(23, 23, 24, 0.1);
-}
-
-.contact_form > button:active {
-    box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);   
-}
 
 
 /*RESPONSIVE*/
@@ -493,7 +392,6 @@ textarea::placeholder {
         box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);   
     }
 }
-
 @media screen and (max-width: 767px){
     .contact {
         width: 89.4%;
@@ -846,7 +744,6 @@ textarea::placeholder {
         box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);   
     } 
 }
-
 @media screen and (max-width: 370px){
     .contact {
         width: 84%;
@@ -930,7 +827,6 @@ textarea::placeholder {
         box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);   
     }    
 }
-
 @media (min-width: 300px) and (max-width: 330px){
     .contact {
         width: 77%;
@@ -1012,5 +908,734 @@ textarea::placeholder {
     
     .contact_form > button:active {
         box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);   
+    }
+}
+
+
+
+/* LIGHT MODE AND DARK MODE */
+.contactLight {
+    background-color: #F7F7F7;
+    width: 84%;
+    margin: 0 0 0 10vh;
+}
+
+.contactLight > h3 {
+    margin: 12vh 0 6vh 0;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    color: #353535;
+}
+
+.contactLight > .contact_wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.contactLight > .contact_wrapper > .contact_image {
+    width: 50%;
+}
+
+.contactLight > .contact_wrapper > .contact_image > img {
+    width: 100%;
+}
+
+.contactLight > .contact_wrapper > .contact_form {
+    width: 50%;
+}
+
+.contactLight > .contact_wrapper > .contact_form > form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Sarala', sans-serif;
+    width: 96%;
+    margin: auto;
+    margin: 20px 0 0 20px;
+}
+
+.contactLight > .contact_wrapper > .contact_form > form > input {
+    display: block;
+    width: 100%;
+    padding: 16px 8px;
+    margin: 7px 0;
+    border-radius: 10px;
+    color: #353535;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    background-color: #F7F7F7;
+    text-indent: 10px;
+    font-family: sans-serif;
+    box-shadow: -3px -3px 3px rgba(255,255,255,1), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
+}
+
+.contactLight > .contact_wrapper > .contact_form > form > input:hover {
+    box-shadow: inset -3px -3px 3px rgba(255,255,255,.9), inset 3px 3px 3px rgba(23, 23, 24, 0.1);
+}
+
+.contactLight > .contact_wrapper > .contact_form > form > textarea{
+    height: 200px;
+    background: #353535;
+    border-radius: 10px;
+    box-shadow: -3px -3px 3px rgba(255,255,255,1), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
+    font-size: 25px;
+    padding: 16px 8px;
+    margin: 5px 0;
+    outline: none;
+    border: none;
+    text-indent: 10px;
+    color: #353535;
+    background-color: #F7F7F7;
+}
+
+.contactLight > .contact_wrapper > .contact_form > form > textarea:hover {
+    box-shadow: inset -3px -3px 3px rgba(255,255,255,.9), inset 3px 3px 3px rgba(23, 23, 24, 0.1);
+}
+
+.contactLight > .contact_wrapper > .contact_form > button {
+    font-size: 25px;
+    color: #353535;
+    background-color: #F7F7F7;
+    margin: 30px 0 0 5%;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    transition: box-shadow .2s linear;
+    border: none;
+    outline: none;
+    box-shadow: -3px -3px 3px rgba(255,255,255,1), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
+}
+
+.contactLight > .contact_wrapper > .contact_form > button:hover {
+    box-shadow: inset -3px -3px 3px rgba(255,255,255,.9), inset 3px 3px 3px rgba(23, 23, 24, 0.1);
+}
+
+.contactLight > .contact_wrapper > .contact_form > button:active {
+    box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);   
+}
+
+
+
+
+/* LIGHT MODE AND DARK MODE RESPONSIVE*/
+@media screen and (max-width: 1200px){
+    .contactLight {
+        width: 90%;
+        margin: 0 0 0 8px; 
+    }
+    
+    .contactLight > h3 {
+        margin: 12vh 0 6vh 0;
+        font-size: 35px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+
+    .contactLight > .contact_wrapper {
+        width: 99%;
+        display: flex;
+    }
+
+    .contactLight > .contact_wrapper > .contact_image {
+        width: 50%;
+    }
+
+    .contactLight > .contact_wrapper > .contact_image > img {
+        width: 100%;
+    }
+    
+    
+    .contactLight > .contact_wrapper > .contact_form {
+        width: 50%;
+    }
+
+    .contactLight > .contact_wrapper > .contact_form > form {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Sarala', sans-serif;
+        width: 96%;
+        margin: auto;
+        margin: 20px 0 0 20px;
+    }
+    
+    .contactLight > .contact_wrapper > .contact_form > form > input {
+        display: block;
+        width: 100%;
+        padding: 10px 8px;
+        margin: 7px 0;
+        border-radius: 10px;
+        color: #000;
+        font-size: 17px;
+        outline: none;
+        border: none;
+        background-color: #F7F7F7;
+        text-indent: 10px;
+        font-family: sans-serif;
+    }
+
+    .contactLight > .contact_wrapper > .contact_form button {
+        font-size: 25px;
+        color: #000;
+        background-color: #F7F7F7;
+        margin: 30px 0 0 5%;
+        border-radius: 30px;
+        padding: 10px;
+        border: none;
+        transition: box-shadow .2s linear;
+        border: none;
+        outline: none;
+    }
+}
+@media screen and (max-width: 1024px){
+    .contactLight {
+        width: 90%;
+        margin: 0 0 0 8px; 
+    }
+    
+    .contactLight > h3 {
+        margin: 12vh 0 6vh 0;
+        font-size: 35px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+
+    .contactLight > .contact_wrapper {
+        width: 98%;
+        display: flex;
+    }
+
+    .contactLight > .contact_wrapper > .contact_image {
+        width: 50%;
+    }
+
+    .contactLight > .contact_wrapper > .contact_image > img {
+        width: 100%;
+    }
+    
+    
+    .contactLight > .contact_wrapper > .contact_form {
+        width: 50%;
+    }
+
+    .contactLight > .contact_wrapper > .contact_form > form {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Sarala', sans-serif;
+        width: 96%;
+        margin: auto;
+        margin: 20px 0 0 20px;
+    }
+    
+    .contactLight > .contact_wrapper > .contact_form > form > input {
+        display: block;
+        width: 100%;
+        padding: 10px 8px;
+        margin: 7px 0;
+        border-radius: 10px;
+        color: #000;
+        font-size: 17px;
+        outline: none;
+        border: none;
+        background-color: #F7F7F7;
+        text-indent: 10px;
+        font-family: sans-serif;
+    }
+
+    .contactLight > .contact_wrapper > .contact_form button {
+        font-size: 25px;
+        color: #000;
+        background-color: #F7F7F7;
+        margin: 30px 0 0 5%;
+        border-radius: 30px;
+        padding: 10px;
+        border: none;
+        transition: box-shadow .2s linear;
+        border: none;
+        outline: none;
+    }
+}
+@media screen and (max-width: 976px){
+    .contactLight {
+        width: 90%;
+        margin: 0 0 0 8px; 
+    }
+    
+    .contactLight > h3 {
+        margin: 12vh 0 6vh 0;
+        font-size: 35px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+
+    .contactLight > .contact_wrapper {
+        width: 99.6%;
+        display: flex;
+    }
+
+    .contactLight > .contact_wrapper > .contact_image {
+        width: 50%;
+    }
+
+    .contactLight > .contact_wrapper > .contact_image > img {
+        width: 100%;
+    }
+    
+    
+    .contactLight > .contact_wrapper > .contact_form {
+        width: 50%;
+    }
+
+    .contactLight > .contact_wrapper > .contact_form > form {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Sarala', sans-serif;
+        width: 96%;
+        margin: auto;
+        margin: 20px 0 0 20px;
+    }
+    
+    .contactLight > .contact_wrapper > .contact_form > form > input {
+        display: block;
+        width: 100%;
+        padding: 10px 8px;
+        margin: 7px 0;
+        border-radius: 10px;
+        color: #000;
+        font-size: 17px;
+        outline: none;
+        border: none;
+        background-color: #F7F7F7;
+        text-indent: 10px;
+        font-family: sans-serif;
+    }
+
+    .contactLight > .contact_wrapper > .contact_form button {
+        font-size: 25px;
+        color: #000;
+        background-color: #F7F7F7;
+        margin: 30px 0 0 5%;
+        border-radius: 30px;
+        padding: 10px;
+        border: none;
+        transition: box-shadow .2s linear;
+        border: none;
+        outline: none;
+    }
+
+    
+}
+@media screen and (max-width: 767px){
+    .contactLight {
+        width: 89.4%;
+        margin: 0 0 0 0;   
+    }
+    
+    .contactLight > h3 {
+        margin: 10vh 0 3vh 0;
+        font-size: 29px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+
+    .contactLight > .contact_wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contactLight > .contact_wrapper > .contact_image {
+        width: 100%;
+    }
+    
+    .contactLight > .contact_wrapper > .contact_image > img {
+        width: 98%;
+    }
+    
+    .contactLight > .contact_wrapper > .contact_form {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+
+    .contactLight > .contact_wrapper > .contact_form > form {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Sarala', sans-serif;
+        width: 96%;
+        margin: auto;
+        margin: 0;
+    }
+    
+    .contactLight > .contact_wrapper > .contact_form > form > input {
+        display: block;
+        width: 100%;
+        padding: 11px;
+        margin: 10px 0;
+        border-radius: 10px;
+        color: #000;
+        font-size: 17px;
+        outline: none;
+        border: none;
+        background-color: #F7F7F7;
+        text-indent: 10px;
+        font-family: sans-serif;
+    }
+
+    .contactLight > .contact_wrapper > .contact_form button {
+        font-size: 17px;
+        color: #000;
+        background-color: #F7F7F7;
+        margin: 30px 0 0 0;
+        border-radius: 30px;
+        padding: 10px 12px;
+        border: none;
+        transition: box-shadow .2s linear;
+        border: none;
+        outline: none;
+    }
+}
+@media screen and (max-width: 501px){
+    .contactLight {
+        width: 87.6%;
+        margin: 0 0 0 0; 
+    }
+    
+    .contactLight > h3 {
+        margin: 10vh 0 3vh 0;
+        font-size: 29px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+
+    .contactLight > .contact_wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contactLight > .contact_wrapper > .contact_image {
+        width: 100%;
+    }
+    
+    .contactLight > .contact_wrapper > .contact_image > img {
+        width: 98%;
+    }
+    
+    .contactLight > .contact_wrapper > .contact_form {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+
+    .contactLight > .contact_wrapper > .contact_form > form {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Sarala', sans-serif;
+        width: 96%;
+        margin: auto;
+        margin: 0;
+    }
+    
+    .contactLight > .contact_wrapper > .contact_form > form > input {
+        display: block;
+        width: 100%;
+        padding: 11px;
+        margin: 10px 0;
+        border-radius: 10px;
+        color: #000;
+        font-size: 17px;
+        outline: none;
+        border: none;
+        background-color: #F7F7F7;
+        text-indent: 10px;
+        font-family: sans-serif;
+    }
+
+    .contactLight > .contact_wrapper > .contact_form button {
+        font-size: 17px;
+        color: #000;
+        background-color: #F7F7F7;
+        margin: 30px 0 0 0;
+        border-radius: 30px;
+        padding: 10px 12px;
+        border: none;
+        transition: box-shadow .2s linear;
+        border: none;
+        outline: none;
+    }
+}
+@media screen and (max-width: 460px){
+    .contactLight {
+        width: 84%;
+        margin: 0 0 0 0;   
+    }
+    
+    .contactLight > h3 {
+        margin: 10vh 0 3vh 0;
+        font-size: 29px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+
+    .contactLight > .contact_wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contactLight > .contact_wrapper > .contact_image {
+        width: 100%;
+    }
+    
+    .contactLight > .contact_wrapper > .contact_image > img {
+        width: 100%;
+    }
+    
+    .contactLight > .contact_wrapper > .contact_form {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+
+    .contactLight > .contact_wrapper > .contact_form > form {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Sarala', sans-serif;
+        width: 96%;
+        margin: auto;
+        margin: 0;
+    }
+    
+    .contactLight > .contact_wrapper > .contact_form > form > input {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 10px;
+        color: #000;
+        font-size: 16px;
+        outline: none;
+        border: none;
+        background-color: #F7F7F7;
+        text-indent: 10px;
+        font-family: sans-serif;
+    }
+
+    .contactLight > .contact_wrapper > .contact_form button {
+        font-size: 17px;
+        color: #000;
+        background-color: #F7F7F7;
+        margin: 30px 0 0 0;
+        border-radius: 30px;
+        padding: 10px 12px;
+        border: none;
+        transition: box-shadow .2s linear;
+        border: none;
+        outline: none;
+    }
+}
+@media screen and (max-width: 400px){
+    .contactLight {
+        width: 84%;
+        margin: 0 0 0 0;   
+    }
+    
+    .contactLight > h3 {
+        margin: 6vh 0 3vh 0;
+        font-size: 29px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+
+    .contactLight > .contact_wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contactLight > .contact_wrapper > .contact_image {
+        width: 100%;
+    }
+    
+    .contactLight > .contact_wrapper > .contact_image > img {
+        width: 100%;
+    }
+    
+    .contactLight > .contact_wrapper > .contact_form {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+
+    .contactLight > .contact_wrapper > .contact_form > form {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Sarala', sans-serif;
+        width: 96%;
+        margin: auto;
+        margin: 0;
+    }
+    
+    .contactLight > .contact_wrapper > .contact_form > form > input {
+        display: block;
+        width: 100%;
+        padding: 8px;
+        margin: 10px 0;
+        border-radius: 10px;
+        color: #000;
+        font-size: 16px;
+        outline: none;
+        border: none;
+        background-color: #F7F7F7;
+        text-indent: 10px;
+        font-family: sans-serif;
+    }
+
+    .contactLight > .contact_wrapper > .contact_form button {
+        font-size: 17px;
+        color: #000;
+        background-color: #F7F7F7;
+        margin: 30px 0 0 0;
+        border-radius: 30px;
+        padding: 10px 12px;
+        border: none;
+        transition: box-shadow .2s linear;
+        border: none;
+        outline: none;
+    }
+}
+@media screen and (max-width: 370px){
+    .contactLight {
+        width: 84%;
+        margin: 0 0 0 0;  
+    }
+
+    .contactLight > h3 {
+        margin: 6vh 0 3vh 0;
+        font-size: 26px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+
+    .contactLight > .contact_wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contactLight > .contact_wrapper > .contact_image {
+        width: 100%;
+    }
+    
+    .contactLight > .contact_wrapper > .contact_image > img {
+        width: 100%;
+    }
+    
+    .contactLight > .contact_wrapper > .contact_form {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+
+    .contactLight > .contact_wrapper > .contact_form > form {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Sarala', sans-serif;
+        width: 96%;
+        margin: auto;
+        margin: 0;
+    }
+    
+    .contactLight > .contact_wrapper > .contact_form > form > input {
+        display: block;
+        width: 100%;
+        padding: 8px;
+        margin: 10px 0;
+        border-radius: 10px;
+        color: #000;
+        font-size: 16px;
+        outline: none;
+        border: none;
+        background-color: #F7F7F7;
+        text-indent: 10px;
+        font-family: sans-serif;
+    }
+
+    .contactLight > .contact_wrapper > .contact_form button {
+        font-size: 16px;
+        color: #000;
+        background-color: #F7F7F7;
+        margin: 30px 0 0 0;
+        border-radius: 30px;
+        padding: 7px 10px;
+        border: none;
+        transition: box-shadow .2s linear;
+        border: none;
+        outline: none;
+    }
+}
+@media (min-width: 300px) and (max-width: 330px){
+    .contactLight {
+        width: 77%;
+        margin: 0 0 0 0;  
+    }
+
+    .contactLight > h3 {
+        margin: 6vh 0 3vh 0;
+        font-size: 26px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+
+    .contactLight > .contact_wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contactLight > .contact_wrapper > .contact_image {
+        width: 100%;
+    }
+    
+    .contactLight > .contact_wrapper > .contact_image > img {
+        width: 100%;
+    }
+    
+    .contactLight > .contact_wrapper > .contact_form {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+
+    .contactLight > .contact_wrapper > .contact_form > form {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Sarala', sans-serif;
+        width: 96%;
+        margin: auto;
+        margin: 0;
+    }
+    
+    .contactLight > .contact_wrapper > .contact_form > form > input {
+        display: block;
+        width: 100%;
+        padding: 7px;
+        margin: 10px 0;
+        border-radius: 10px;
+        color: black;
+        font-size: 16px;
+        outline: none;
+        border: none;
+        background-color: #F7F7F7;
+        text-indent: 10px;
+        font-family: sans-serif;
+    }
+
+    .contactLight > .contact_wrapper > .contact_form button {
+        font-size: 16px;
+        color: #000;
+        background-color: #F7F7F7;
+        margin: 30px 0 0 0;
+        border-radius: 30px;
+        padding: 7px 10px;
+        border: none;
+        transition: box-shadow .2s linear;
+        border: none;
+        outline: none;
     }
 }

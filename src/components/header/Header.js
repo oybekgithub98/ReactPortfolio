@@ -8,8 +8,7 @@ import { TimelineLite } from 'gsap';
 const Header = ({ menu, menuActive, setMenuActive }) => {
 
 
-    const [dark, dispatch] = useStateValue();
-    // console.log(dark, dispatch)
+    const [dark] = useStateValue();
 
     const gp = new TimelineLite({ delay: 0.3 });
     useEffect(() => {

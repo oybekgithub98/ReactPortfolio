@@ -5,8 +5,7 @@ import { useStateValue } from '../../StateProvider';
 
 const Sidebar = () => {
 
-    const [dark, dispatch] = useStateValue();
-    // console.log(dark, dispatch);
+    const [dark] = useStateValue();
 
     return (
         <div className={ ! dark.dark ? "sidebar" : "sidebarLight"}>
