@@ -42,9 +42,9 @@ const Default = () => {
     useEffect(()=>{
         dispatch({
             type: "SET_DARK",
-            dark: localStorage.getItem('theme') === "dark"
+            dark: localStorage.getItem('theme') === "dark",
         })
-    }, [])
+    }, [dispatch])
     return (
         <div>
             <Header menu={openMenu} menuActive={menuActive} setMenuActive={setMenuActive} />

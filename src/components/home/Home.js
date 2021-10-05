@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Figure1 from '../animation/figure1/Figure1';
 import Figure2 from '../animation/figure2/Figure2';
 import TypingEffect from 'new-react-typing-effect';
@@ -7,20 +7,20 @@ import { FiSun } from 'react-icons/fi';
 import { IoIosMoon } from 'react-icons/io';
 import { useStateValue } from '../../StateProvider';
 import './Home.css';
-import { TimelineLite } from 'gsap';
+// import { TimelineLite } from 'gsap';
 
 const Home = () => {
     const [dark, dispatch] = useStateValue();
-    const gp = new TimelineLite()
+    // const gp = new TimelineLite()
     const [state, setState] = useState(false);
     console.log(state)
     
-    useEffect(() => {
-        gp
-            .from('.theme', { duration: 1, y: '-200px', ease: 'bounse', delay: 0.7, rotation: '360' })
-            .from('.I_am', { duration: 1, x: '-200px', delay: 0.7 })
-            .from('.homeText', { duration: 1, x: '-500px', delay: 0.7 })
-    }, [])
+    // useEffect(() => {
+    //     gp
+    //         .from('.theme', { duration: 1, y: '-200px', ease: 'bounse', delay: 0.7, rotation: '360' })
+    //         .from('.I_am', { duration: 1, x: '-200px', delay: 0.7 })
+    //         .from('.homeText', { duration: 1, x: '-500px', delay: 0.7 })
+    // }, [])
 
    
 
