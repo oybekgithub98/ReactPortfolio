@@ -5,7 +5,6 @@ import { useStateValue } from '../../StateProvider';
 
 const About = () => {
     const [dark, dispatch] = useStateValue();
-    // console.log(dark, dispatch);
 
     const [experienc, SetExperienc] = useState(false);
 
@@ -15,7 +14,7 @@ const About = () => {
         const Experience = document.getElementById('Experience');
 
         Education.style.color = 'coral';
-        Experience.style.color = '#fff';
+        Experience.style.color = 'grey';
         SetExperienc(true)
         
     }
@@ -24,7 +23,7 @@ const About = () => {
         const Education = document.getElementById('Education');
         const Experience = document.getElementById('Experience');
 
-        Education.style.color = '#fff';
+        Education.style.color = 'grey';
         Experience.style.color = 'coral';
         SetExperienc(false);
     }

@@ -15,7 +15,7 @@ const Banner = () => {
     return (
         <div className={ ! dark.dark ? "banner" : "bannerLight"}>
             <div className="banner_wrapper">
-                <Home />
+                <Home /> 
                 <About />
                 <Services />
                 <Portfel />

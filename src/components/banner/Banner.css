@@ -172,7 +172,7 @@
 @media screen and (max-width: 1200px){
     .bannerLight {
         width: 100%;
-        background-color: rgb(53,53,53);
+        background-color: #F7F7F7;
         color: rgba(255, 255, 255, 0.89);
         margin-top: 60px;
         overflow: hidden;
@@ -187,7 +187,7 @@
 @media screen and (max-width: 1024px){
     .bannerLight {
         width: 100%;
-        background-color: rgb(53,53,53);
+        background-color: #F7F7F7;
         color: rgba(255, 255, 255, 0.89);
         margin-top: 75px;
         overflow: hidden;
@@ -202,7 +202,7 @@
 @media screen and (max-width: 976px){
     .bannerLight {
         width: 100%;
-        background-color: rgb(53,53,53);
+        background-color: #F7F7F7;
         color: rgba(255, 255, 255, 0.89);
         margin-top: 75px;
         overflow: hidden;
@@ -217,7 +217,7 @@
 @media screen and (max-width: 767px){
     .bannerLight {
         width: 100%;
-        background-color: rgb(53,53,53);
+        background-color: #F7F7F7;
         color: rgba(255, 255, 255, 0.89);
         margin-top: 70px;
         overflow: hidden;
@@ -232,7 +232,7 @@
 @media screen and (max-width: 501px){
     .bannerLight {
         width: 100%;
-        background-color: rgb(53,53,53);
+        background-color: #F7F7F7;
         color: rgba(255, 255, 255, 0.89);
         margin-top: 70px;
         overflow: hidden;

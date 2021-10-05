@@ -200,133 +200,6 @@
     box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
 }
 
-
-/* LIGHT MODE AND DARK MODE */
-.aboutLight {
-    margin: 6vh 0 0 0;
-    width: 84%;
-    margin: 0 0 0 10vh;
-    background-color: #F7F7F7;
-    color: #353535;
-
-}
-
-.aboutLight > h3 {
-    margin: 27vh 0 6vh 0;
-    font-size: 33px;
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
-    color: #202020;
-    font-weight: 900;
-}
-
-.aboutLight > .about_wrapper {
-    width: 100%;
-    height: auto;
-    display: flex;
-}
-
-.aboutLight > .about_wrapper > .skills {
-    width: 50%;
-    height: auto;
-}
-
-.aboutLight > .about_wrapper > .skills > h3 {
-    margin-bottom: 10vh;
-    font-size: 24px;
-    font-family: sans-serif;
-}
-
-.experience_items > h3:last-child {
-    margin-left: 30px;
-}
-
-.aboutLight > .about_wrapper > .skills > .skills_items {
-    width: 90%;
-    margin: 3vh 0;
-    margin-top: 15px;
-    background: #F7F7F7;
-    color: #353535;
-    padding: 17px;
-    padding-left: 8px;
-    display: block;
-    display: flex;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    box-shadow: -3px -3px 3px rgba(255,255,255,1),
-    3px 3px 3px #cacacc,
-    inset -3px -3px 3px rgba(0,0,0, 0.4),
-    inset   3px 3px 3px rgba(255,255,255, 0.8);
-}
-
-.aboutLight > .about_wrapper > .skills > .skills_items > .skillsName {
-    font-size: 16px;
-    height: 100%;
-    width: 120px;
-    color: #353535;
-}
-
-.aboutLight > .about_wrapper > .experience {
-    width: 50%;
-}
-
-.aboutLight > .about_wrapper > .experience > .experience_items {
-    display: flex;
-    align-items: center;
-}
-
-.aboutLight > .about_wrapper > .experience > .experience_items > h3 {
-    font-size: 24px;
-    margin-bottom: 5vh;
-    cursor: pointer;
-}
-
-.aboutLight > .about_wrapper > .experience > .experience_items > h3:last-child {
-    color: #353535;
-}
-
-.aboutLight > .about_wrapper > .experience > .experience_box {
-    border-left: 1.7px solid coral;
-    height: auto;
-    padding: 5vh 0 0 4vh;
-}
-
-.aboutLight > .about_wrapper > .experience > .experience_box > .card {
-    width: 100%;
-    height: auto;
-    box-shadow: -3px -3px 3px rgb(221, 221, 221),
-    3px 3px 3px #cacacc,
-    inset -3px -3px 3px rgba(0,0,0, 0.4),
-    inset   3px 3px 3px rgba(255,255,255, 0.8);
-    margin: 0 0 16px 0;
-    padding: 10px;
-    color: #353535;
-    border-radius: 8px;
-}
-
-.aboutLight > .about_wrapper > .experience > .btn button {
-    background: #F7F7F7;
-    margin-top: 30px;
-    border-radius: 30px;
-    padding: 8px 10px;
-    border: none;
-    transition: box-shadow .2s linear;
-    box-shadow: -1px -1px 3px rgb(221, 221, 221),
-    1px 1px 3px #a8a8a8,
-    inset -3px -3px 3px rgba(0,0,0, 0.4),
-    inset   1px 1px 3px rgba(255,255,255, 0.8);
-    font-size: 19px;
-    margin: 5vh 20px 0 0;
-    color: #353535;
-    font-weight: 600;
-    cursor: pointer;
-}
-
-.aboutLight > .about_wrapper > .experience > .btn button:hover {
-    box-shadow: inset -3px -3px 3px rgba(255,255,255,.9),inset 3px 3px 3px rgba(23, 23, 24, 0.1);
-}
-
 /*RESPONSIVE*/
 @media screen and (max-width: 1200px){
     .about {
@@ -2174,3 +2047,760 @@
         box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
     }
 }
+
+
+
+/* LIGHT MODE AND DARK MODE */
+.aboutLight {
+    margin: 6vh 0 0 0;
+    width: 84%;
+    margin: 0 0 0 10vh;
+    background-color: #F7F7F7;
+    color: #353535;
+
+}
+
+.aboutLight > h3 {
+    margin: 27vh 0 6vh 0;
+    font-size: 33px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    color: #202020;
+    font-weight: 900;
+}
+
+.aboutLight > .about_wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.aboutLight > .about_wrapper > .skills {
+    width: 50%;
+    height: auto;
+}
+
+.aboutLight > .about_wrapper > .skills > h3 {
+    margin-bottom: 10vh;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.experience_items > h3:last-child {
+    margin-left: 30px;
+}
+
+.aboutLight > .about_wrapper > .skills > .skills_items {
+    width: 90%;
+    margin: 3vh 0;
+    margin-top: 15px;
+    background: #F7F7F7;
+    color: #353535;
+    padding: 17px;
+    padding-left: 8px;
+    display: block;
+    display: flex;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: -3px -3px 3px rgba(255,255,255,1),
+    3px 3px 3px #cacacc,
+    inset -3px -3px 3px rgba(0,0,0, 0.4),
+    inset   3px 3px 3px rgba(255,255,255, 0.8);
+}
+
+.aboutLight > .about_wrapper > .skills > .skills_items > .skillsName {
+    font-size: 16px;
+    height: 100%;
+    width: 120px;
+    color: #353535;
+}
+
+.aboutLight > .about_wrapper > .experience {
+    width: 50%;
+}
+
+.aboutLight > .about_wrapper > .experience > .experience_items {
+    display: flex;
+    align-items: center;
+}
+
+.aboutLight > .about_wrapper > .experience > .experience_items > h3 {
+    font-size: 24px;
+    margin-bottom: 5vh;
+    cursor: pointer;
+}
+
+.aboutLight > .about_wrapper > .experience > .experience_items > h3:last-child {
+    color: #353535;
+}
+
+.aboutLight > .about_wrapper > .experience > .experience_box {
+    border-left: 1.7px solid coral;
+    height: auto;
+    padding: 5vh 0 0 4vh;
+}
+
+.aboutLight > .about_wrapper > .experience > .experience_box > .card {
+    width: 100%;
+    height: auto;
+    box-shadow: -3px -3px 3px rgb(221, 221, 221),
+    3px 3px 3px #cacacc,
+    inset -3px -3px 3px rgba(0,0,0, 0.4),
+    inset   3px 3px 3px rgba(255,255,255, 0.8);
+    margin: 0 0 16px 0;
+    padding: 10px;
+    color: #353535;
+    border-radius: 8px;
+}
+
+.aboutLight > .about_wrapper > .experience > .btn button {
+    background: #F7F7F7;
+    margin-top: 30px;
+    border-radius: 30px;
+    padding: 8px 10px;
+    border: none;
+    transition: box-shadow .2s linear;
+    box-shadow: -1px -1px 3px rgb(221, 221, 221),
+    1px 1px 3px #a8a8a8,
+    inset -3px -3px 3px rgba(0,0,0, 0.4),
+    inset   1px 1px 3px rgba(255,255,255, 0.8);
+    font-size: 19px;
+    margin: 5vh 20px 0 0;
+    color: #353535;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.aboutLight > .about_wrapper > .experience > .btn button:hover {
+    box-shadow: inset -3px -3px 3px rgba(255,255,255,.9),inset 3px 3px 3px rgba(23, 23, 24, 0.1);
+}
+
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 767px){
+    .aboutLight {
+        margin: 6vh 0 0 0;
+        width: 86%;
+        background-color: #F7F7F7;
+    }
+
+    .aboutLight > h3 {
+        margin: 14vh 0 6vh 0;
+        font-size: 29px;
+        font-family: 'Indie Flower', cursive;
+        text-align: center !important;
+    }
+
+    .aboutLight > .about_wrapper > .skills {
+        width: 100%;
+        height: auto;
+    }
+
+    .aboutLight > .about_wrapper > .skills > h3 {
+        margin-bottom: 5vh;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+
+    .aboutLight > .about_wrapper > .skills > .skills_items {
+        width: 100%;
+        margin: 3vh 0;
+        margin-top: 15px;
+        background-color: #F7F7F7;
+        padding: 12px;
+        padding-left: 8px;
+        display: block;
+        display: flex;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        box-shadow: -3px -3px 3px rgb(212, 212, 212), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
+    }
+
+    .aboutLight > .about_wrapper > .skills > .skills_items > .skillsName {
+        font-size: 13px;
+        height: 50%;
+        width: 120px;
+        color: rgb(0, 0, 0);
+    }
+
+    .aboutLight > .about_wrapper > .skills > .skills_items > .skills_parent {
+        width: 100%;
+        height: 12px;
+        background: rgb(207, 207, 207);
+        margin: 0 5px;
+        border-radius: 40px;
+        position: relative;
+    }
+
+    .aboutLight > .about_wrapper > .experience {
+        width: 100%;
+    }
+
+    .aboutLight > .about_wrapper > .experience > .experience_items > h3 {
+        font-size: 22px;
+        margin: 20px 0 4vh 0;
+        cursor: pointer;
+    }
+
+    .aboutLight > .about_wrapper > .experience > .experience_items > h3:last-child {
+        color: coral;
+        margin-left: 30px;
+    }
+
+    .aboutLight > .about_wrapper > .experience > .experience_box {
+        border-left: 1.7px solid coral;
+        height: auto;
+        padding: 5vh 0 0 4vh;
+    }
+
+    .aboutLight > .about_wrapper > .experience > .experience_box > .card {
+        width: 100%;
+        height: auto;
+        box-shadow: -3px -3px 3px rgb(212, 212, 212), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
+        margin: 0 0 16px 0;
+        padding: 10px;
+        color: #000;
+        border-radius: 8px;
+    }
+    
+    .aboutLight > .about_wrapper > .experience > .btn button{
+        background-color: #F7F7F7;
+        margin: 0;
+        border-radius: 30px;
+        padding: 10px 13px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(212, 212, 212), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
+        font-size: 15px;
+        margin: 4vh 18px 0 0px;
+        color: #000;
+        font-weight: 500;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 501px){
+    .aboutLight {
+        background-color: #F7F7F7;
+        margin: 6vh 0 0 0;
+        width: 84%;
+    }
+
+    .aboutLight > h3 {
+        margin: 14vh 0 6vh 0;
+        font-size: 29px;
+        font-family: 'Indie Flower', cursive;
+        text-align: center !important;
+    }
+
+    .aboutLight > .about_wrapper > .skills {
+        width: 100%;
+        height: auto;
+    }
+
+    .aboutLight > .about_wrapper > .skills > h3 {
+        margin-bottom: 5vh;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+
+    .aboutLight > .about_wrapper > .skills > .skills_items {
+        width: 100%;
+        margin: 3vh 0;
+        margin-top: 15px;
+        background-color: #F7F7F7;
+        padding: 12px;
+        padding-left: 8px;
+        display: block;
+        display: flex;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        box-shadow: -3px -3px 3px rgb(212, 212, 212), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
+    }
+
+    .aboutLight > .about_wrapper > .skills > .skills_items > .skillsName {
+        font-size: 13px;
+        height: 50%;
+        width: 120px;
+        color: rgb(0, 0, 0);
+    }
+
+    .aboutLight > .about_wrapper > .skills > .skills_items > .skills_parent {
+        width: 100%;
+        height: 12px;
+        background: rgb(207, 207, 207);
+        margin: 0 5px;
+        border-radius: 40px;
+        position: relative;
+    }
+
+    .aboutLight > .about_wrapper > .experience {
+        width: 100%;
+    }
+
+    .aboutLight > .about_wrapper > .experience > .experience_items > h3 {
+        font-size: 20px;
+        margin: 20px 0 4vh 0;
+        cursor: pointer;
+    }
+
+    .aboutLight > .about_wrapper > .experience > .experience_items > h3:last-child {
+        color: coral;
+        margin-left: 30px;
+    }
+
+    .aboutLight > .about_wrapper > .experience > .experience_box {
+        border-left: 1.7px solid coral;
+        height: auto;
+        padding: 5vh 0 0 4vh;
+    }
+
+    .aboutLight > .about_wrapper > .experience > .experience_box > .card {
+        width: 100%;
+        height: auto;
+        box-shadow: -3px -3px 3px rgb(212, 212, 212), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
+        margin: 0 0 16px 0;
+        padding: 10px;
+        color: #000;
+        border-radius: 8px;
+    }
+    
+    .aboutLight > .about_wrapper > .experience > .btn button{
+        background-color: #F7F7F7;
+        margin: 0;
+        border-radius: 30px;
+        padding: 10px 13px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(212, 212, 212), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
+        font-size: 15px;
+        margin: 4vh 18px 0 0px;
+        color: #000;
+        font-weight: 500;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 460px){
+    .aboutLight {
+        margin: 6vh 0 0 0;
+        width: 81%;
+        background-color: #F7F7F7;
+    }
+
+    .aboutLight > h3 {
+        margin: 14vh 0 6vh 0;
+        font-size: 29px;
+        font-family: 'Indie Flower', cursive;
+        text-align: center !important;
+    }
+
+    .aboutLight > .about_wrapper > .skills {
+        width: 100%;
+        height: auto;
+    }
+
+    .aboutLight > .about_wrapper > .skills > h3 {
+        margin-bottom: 5vh;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+
+    .aboutLight > .about_wrapper > .skills > .skills_items {
+        box-shadow: -3px -3px 3px rgb(212, 212, 212), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
+        width: 100%;
+        margin: 3vh 0;
+        margin-top: 15px;
+        background-color: #F7F7F7;
+        padding: 10px;
+        padding-left: 8px;
+        display: block;
+        display: flex;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .aboutLight > .about_wrapper > .skills > .skills_items > .skillsName {
+        font-size: 13px;
+        height: 50%;
+        width: 120px;
+        color: rgb(0, 0, 0);
+    }
+    .aboutLight > .about_wrapper > .skills > .skills_items > .skills_parent {
+        width: 100%;
+        height: 11px;
+        background: rgb(207, 207, 207);
+        margin: 0 5px;
+        border-radius: 40px;
+        position: relative;
+    }
+
+    .aboutLight > .about_wrapper > .experience {
+        width: 100%;
+    }
+
+    .aboutLight > .about_wrapper > .experience > .experience_items > h3 {
+        font-size: 20px;
+        margin: 20px 0 4vh 0;
+        cursor: pointer;
+    }
+
+    .aboutLight > .about_wrapper > .experience > .experience_items > h3:last-child {
+        color: coral;
+        margin-left: 30px;
+    }
+
+    .aboutLight > .about_wrapper > .experience > .experience_box {
+        border-left: 1.7px solid coral;
+        height: auto;
+        padding: 5vh 0 0 4vh;
+    }
+
+    .aboutLight > .about_wrapper > .experience > .experience_box > .card {
+        width: 100%;
+        height: auto;
+        box-shadow: -3px -3px 3px rgb(212, 212, 212), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
+        margin: 0 0 16px 0;
+        padding: 10px;
+        color: #000;
+        border-radius: 8px;
+    }
+    
+    .aboutLight > .about_wrapper > .experience > .btn button{
+        background-color: #F7F7F7;
+        margin: 0;
+        border-radius: 30px;
+        padding: 10px 13px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(212, 212, 212), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
+        font-size: 15px;
+        margin: 4vh 18px 0 0px;
+        color: #000;
+        font-weight: 500;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 400px){
+    .aboutLight {
+        background-color: #F7F7F7;
+        margin: 6vh 0 0 0;
+        width: 81%;
+       
+    }
+
+    .aboutLight > h3 {
+        margin: 10vh 0 6vh 0;
+        font-size: 28px;
+        font-family: 'Indie Flower', cursive;
+        text-align: center !important;
+    }
+
+    .aboutLight > .about_wrapper > .skills {
+        width: 100%;
+        height: auto;
+    }
+
+    .aboutLight > .about_wrapper > .skills > h3 {
+        margin-bottom: 5vh;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+
+    .aboutLight > .about_wrapper > .skills > .skills_items {
+        width: 99%;
+        margin: 3vh 0;
+        margin-top: 15px;
+        background-color: #F7F7F7;
+        padding: 10px;
+        padding-left: 8px;
+        display: block;
+        display: flex;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        box-shadow: -3px -3px 3px rgb(212, 212, 212), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
+    }
+
+    .aboutLight > .about_wrapper > .skills > .skills_items > .skillsName {
+        font-size: 13px;
+        height: 50%;
+        width: 120px;
+        color: rgb(0, 0, 0);
+    }
+    .aboutLight > .about_wrapper > .skills > .skills_items > .skills_parent {
+        width: 100%;
+        height: 11px;
+        background: rgb(207, 207, 207);
+        margin: 0 5px;
+        border-radius: 40px;
+        position: relative;
+    }
+
+    .aboutLight > .about_wrapper > .experience {
+        width: 99%;
+    }
+
+    .aboutLight > .about_wrapper > .experience > .experience_items > h3 {
+        font-size: 20px;
+        margin: 20px 0 4vh 0;
+        cursor: pointer;
+    }
+
+    .aboutLight > .about_wrapper > .experience > .experience_items > h3:last-child {
+        color: coral;
+        margin-left: 30px;
+    }
+
+    .aboutLight > .about_wrapper > .experience > .experience_box {
+        border-left: 1.7px solid coral;
+        height: auto;
+        padding: 5vh 0 0 4vh;
+    }
+
+    .aboutLight > .about_wrapper > .experience > .experience_box > .card {
+        width: 100%;
+        height: auto;
+        box-shadow: -3px -3px 3px rgb(212, 212, 212), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
+        margin: 0 0 16px 0;
+        padding: 10px;
+        color: #000;
+        border-radius: 8px;
+    }
+    
+    .aboutLight > .about_wrapper > .experience > .btn button{
+        background-color: #F7F7F7;
+        margin: 0;
+        border-radius: 30px;
+        padding: 10px 13px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(212, 212, 212), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
+        font-size: 15px;
+        margin: 4vh 18px 0 0px;
+        color: #000;
+        font-weight: 500;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 370px){
+    .aboutLight {
+        background-color: #F7F7F7;
+        margin: 6vh 0 0 0;
+        width: 81%;
+   }
+
+   .aboutLight > h3 {
+        margin: 10vh 0 6vh 0;
+        font-size: 26px;
+        font-family: 'Indie Flower', cursive;
+        text-align: center !important;
+   }
+
+   .aboutLight > .about_wrapper > .skills {
+        width: 100%;
+        height: auto;
+    }
+
+   .aboutLight > .about_wrapper > .skills > h3 {
+        margin-bottom: 5vh;
+        font-size: 18px;
+        font-family: sans-serif;
+   }
+
+   .aboutLight > .about_wrapper > .skills > .skills_items {
+        width: 97%;
+        margin: 3vh 0;
+        margin-top: 15px;
+        background-color: #F7F7F7;
+        padding: 5px;
+        padding-left: 8px;
+        display: block;
+        display: flex;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+   }
+
+   .aboutLight > .about_wrapper > .skills > .skills_items > .skillsName {
+        font-size: 11px;
+        height: 50%;
+        width: 120px;
+        color: rgb(0, 0, 0);
+   }
+   .aboutLight > .about_wrapper > .skills > .skills_items > .skills_parent {
+        width: 100%;
+        height: 10px;
+        margin: 0 5px;
+        border-radius: 40px;
+        position: relative;
+        background-color: rgb(207, 207, 207);
+   }
+
+   .aboutLight > .about_wrapper > .experience {
+        width: 97%;
+   }
+
+   .aboutLight > .about_wrapper > .experience > .experience_items > h3 {
+        margin-bottom: 5vh;
+        font-size: 18px;
+        font-family: sans-serif;
+   }
+
+   .aboutLight > .about_wrapper > .experience > .experience_items > h3:last-child {
+        color: coral;
+        margin-left: 30px;
+    }
+
+    .aboutLight > .about_wrapper > .experience > .experience_box {
+        border-left: 1.7px solid coral;
+        height: auto;
+        padding: 5vh 0 0 4vh;
+    }
+
+    .aboutLight > .about_wrapper > .experience > .experience_box > .card {
+        width: 100%;
+        height: auto;
+        box-shadow: -3px -3px 3px rgb(212, 212, 212), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
+        margin: 0 0 16px 0;
+        padding: 10px;
+        color: #000;
+        border-radius: 8px;
+    }
+    
+    .aboutLight > .about_wrapper > .experience > .btn button{
+        background-color: #F7F7F7;
+        margin: 0;
+        border-radius: 30px;
+        padding: 10px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(212, 212, 212), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
+        font-size: 12px;
+        margin: 4vh 18px 0 0px;
+        color: #000;
+        font-weight: 400;
+        cursor: pointer;
+    }
+}
+@media (min-width: 300px) and (max-width: 330px){
+   .aboutLight {
+        margin: 6vh 0 0 0;
+        width: 78%;
+        background-color: #F7F7F7;
+   }
+
+   .aboutLight > h3 {
+        margin: 10vh 0 6vh 0;
+        font-size: 26px;
+        font-family: 'Indie Flower', cursive;
+        text-align: center !important;
+   }
+
+   .aboutLight > .about_wrapper > .skills {
+        width: 100%;
+        height: auto;
+        
+    }
+
+   .aboutLight > .about_wrapper > .skills > h3 {
+        margin-bottom: 5vh;
+        font-size: 18px;
+        font-family: sans-serif;
+   }
+
+   .aboutLight > .about_wrapper > .skills > .skills_items {
+        width: 97%;
+        margin: 3vh 0;
+        margin-top: 15px;
+        background-color: #F7F7F7;
+        padding: 5px;
+        padding-left: 8px;
+        display: block;
+        display: flex;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+   }
+
+   .aboutLight > .about_wrapper > .skills > .skills_items > .skillsName {
+        font-size: 11px;
+        height: 50%;
+        width: 120px;
+        color: rgb(0, 0, 0);
+   }
+   .aboutLight > .about_wrapper > .skills > .skills_items > .skills_parent {
+        width: 100%;
+        height: 10px;
+        margin: 0 5px;
+        border-radius: 40px;
+        position: relative;
+        background-color: rgb(207, 207, 207);
+   }
+
+   .aboutLight > .about_wrapper > .experience {
+        width: 97%;
+   }
+
+   .aboutLight > .about_wrapper > .experience > .experience_items > h3 {
+        font-size: 15px;
+        margin: 20px 0 4vh 0;
+        cursor: pointer;
+   }
+
+   .aboutLight > .about_wrapper > .experience > .experience_items > h3:last-child {
+        color: coral;
+        margin-left: 30px;
+    }
+
+    .aboutLight > .about_wrapper > .experience > .experience_box {
+        border-left: 1.7px solid coral;
+        height: auto;
+        padding: 5vh 0 0 4vh;
+    }
+
+    .aboutLight > .about_wrapper > .experience > .experience_box > .card {
+        width: 100%;
+        height: auto;
+        box-shadow: -3px -3px 3px rgb(212, 212, 212), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
+        margin: 0 0 16px 0;
+        padding: 10px;
+        color: #000;
+        border-radius: 8px;
+    }
+    
+    .aboutLight > .about_wrapper > .experience > .btn button{
+        background-color: #F7F7F7;
+        margin: 0;
+        border-radius: 30px;
+        padding: 10px;
+        border: none;
+        transition: box-shadow .2s linear;
+        box-shadow: -3px -3px 3px rgb(212, 212, 212), 1px 1px 3px #aeaec0, inset -3px -3px 3px rgba(0,0,0, 0.4), inset 3px 3px 3px rgba(255,255,255, 0.8);
+        font-size: 12px;
+        margin: 4vh 18px 0 0px;
+        color: #000;
+        font-weight: 400;
+        cursor: pointer;
+    }
+}
+
+
+
+
+/* 
+
+.experience_box {
+    
+}
+
+.experience_box > .card {
+    
+}
+
+.btn button {
+    
+} */
