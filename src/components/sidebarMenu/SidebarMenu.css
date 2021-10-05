@@ -111,7 +111,7 @@
 
 .menu > .menu_item_left {
     width: 70%;
-    height: 7vh;
+    height: 50px;
     display: flex;
     align-items: center;
     flex: 1;
@@ -131,6 +131,8 @@
     font-size: 23px;
     border-radius: 10vh;
     box-shadow: -3px -3px 3px rgba(255, 255, 255, 0.151), 3px 3px 3px rgba(0,0,0,0.8);
+    height: 40px;
+    overflow: hidden;
 }
 
 .menu > .menu_item_left > a:hover {

@@ -20,7 +20,7 @@ const Banner = () => {
                 <Services />
                 <Portfel />
                 <Contact />
-                <Footer />
+                <Footer /> 
             </div>
         </div>
     )

@@ -5,16 +5,13 @@ import About from '../../assets/about.png';
 import Services from '../../assets/services.png';
 import Portfolio from '../../assets/portfolio.png';
 import Contact from '../../assets/contact.png';
-import { BrowserRouter as Router } from 'react-router-dom';
 import { useStateValue } from '../../StateProvider';
 
 const SidebarMenu = () => {
 
     const [dark] = useStateValue();
-    // console.log(dark);
 
     return (
-        <Router>
             <div id="sidebar_menu" style={!dark.dark ? {backgroundColor: "rgb(43, 44, 47)"} : {backgroundColor: "#eeecec", boxShadow: "1px 10px 10px 0.1px grey"}} className="sidebar_menu">
                 <div className="sidebar_menu_wrapper">
                     <div className="menu">
@@ -59,7 +56,6 @@ const SidebarMenu = () => {
                     </div>
                 </div>
             </div>
-        </Router>
     )
 }
 
