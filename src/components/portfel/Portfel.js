@@ -21,12 +21,10 @@ const Portfel = () => {
                 <div className={classes.portfolio_card2}>
                     <img src={TelegramImage} alt={TelegramImage} />
                     <div className={classes.card_overlay}>
-                        <h4>This project was built using HTML, CSS, BOOTSTRAP and JAVASCRIPT</h4>
-                        {/* <Link> */}
-                            <a href="sajhksdjkasdkk" target="_blank">
-                                <button>View Project</button>
-                            </a>
-                        {/* </Link> */}
+                        <h4>This project was built using HTML, SCSS and JAVASCRIPT</h4>
+                        <a href="#" target="_blank">
+                            View Project
+                        </a>
                         <div className={classes.card_overlay_item}>
                             <a href="https://github.com/oybekgithub98/reactportfolio/tree/main/src/components/home">
                                 <span>Github code</span>
@@ -36,10 +34,10 @@ const Portfel = () => {
                     </div>
                 </div>
                 <div className={classes.portfolio_card2}>
-                    <img src={WhatsappImage} alt="" />
+                    <img src={WhatsappImage} alt={WhatsappImage} />
                     <div className={classes.card_overlay}>
-                        <h4>This project was built using HTML, SCSS and BOOTSTRAP, React JS</h4>
-                        <button>View Project</button>
+                        <h4>This project was built using HTML, SCSS and JAVASCRIPT</h4>
+                        <a href="#">View Project</a>
                         <div className={classes.card_overlay_item}>
                             <a href="https://github.com/oybekgithub98/reactportfolio/tree/main/src/components/home">
                                 <span>Github code</span>
@@ -50,9 +48,9 @@ const Portfel = () => {
                 </div>
 
                 <div className={classes.portfolio_card2}>
-                    <img src={Quran} alt="" />
+                    <img src={Quran} alt={Quran} />
                     <div className={classes.card_overlay}>
-                        <h4>This project was built using HTML SCSS and React JS</h4>
+                        <h4>This project was built using HTML, SCSS and JAVASCRIPT</h4>
                         <a href="https://instagramclone12345.vercel.app/" target="blank">View Project</a>
                         <div className={classes.card_overlay_item}>
                             <a href="https://github.com/oybekgithub98/reactportfolio/tree/main/src/components/home">
@@ -65,36 +63,36 @@ const Portfel = () => {
             </div>
             <div className={classes.portfolio_box}>
                 <div className={classes.portfolio_card1}>
-                    <img src={City} alt="" />
-                    <div className={classes.card_overlay}>
-                        <h4>This project was built using HTML and CSS</h4>
-                        <button>View Project</button>
-                        <div className={classes.card_overlay_item}>
-                            <a href="https://github.com/oybekgithub98/reactportfolio/tree/main/src/components/home">
-                                <span>Github code</span>
-                                <FaGithub style={{ fontSize: "30px" }} />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div className={classes.portfolio_card1}>
-                    <img src={NamImage} alt="" />
-                    <div className={classes.card_overlay}>
-                        <h4>This project was built using HTML and CSS, React JS</h4>
-                        <button>View Project</button>
-                        <div className={classes.card_overlay_item}>
-                            <a href="https://github.com/oybekgithub98/reactportfolio/tree/main/src/components/home">
-                                <span>Github code</span>
-                                <FaGithub style={{ fontSize: "30px" }} />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div className={classes.portfolio_card1}>
-                    <img src={Calc} alt="" />
+                    <img src={City} alt={City} />
                     <div className={classes.card_overlay}>
                         <h4>This project was built using HTML, SCSS and JAVASCRIPT</h4>
-                        <button>View Project</button>
+                        <a href="#">View Project</a>
+                        <div className={classes.card_overlay_item}>
+                            <a href="https://github.com/oybekgithub98/reactportfolio/tree/main/src/components/home">
+                                <span>Github code</span>
+                                <FaGithub style={{ fontSize: "30px" }} />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className={classes.portfolio_card1}>
+                    <img src={NamImage} alt={NamImage} />
+                    <div className={classes.card_overlay}>
+                        <h4>This project was built using HTML, SCSS and JAVASCRIPT</h4>
+                        <a href="#">View Project</a>
+                        <div className={classes.card_overlay_item}>
+                            <a href="https://github.com/oybekgithub98/reactportfolio/tree/main/src/components/home">
+                                <span>Github code</span>
+                                <FaGithub style={{ fontSize: "30px" }} />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className={classes.portfolio_card1}>
+                    <img src={Calc} alt={Calc} />
+                    <div className={classes.card_overlay}>
+                        <h4>This project was built using HTML, SCSS and JAVASCRIPT</h4>
+                        <a href="#">View Project</a>
                         <div className={classes.card_overlay_item}>
                             <a href="https://github.com/oybekgithub98/reactportfolio/tree/main/src/components/home">
                                 <span>Github code</span>

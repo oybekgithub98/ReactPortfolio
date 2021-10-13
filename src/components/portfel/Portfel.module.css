@@ -86,24 +86,24 @@
 
 .card_overlay > h4 {
     font-size: 22px;
+    margin-bottom: 25px;
 }
 
-.card_overlay > button {
+.card_overlay > a {
     background: #353535;
-    margin-top: 30px;
     border-radius: 30px;
     padding: 10px 20px;
     border: none;
     transition: box-shadow .2s linear;
     box-shadow: -3px -3px 3px rgb(255 255 255 / 10%), 3px 3px 3px rgb(0 0 0 / 80%);
     font-size: 20px;
-    margin: 5vh 20px 0 0;
+    margin: 0 20px 0 0;
     color: #EC7D96;
     font-weight: 600;
     cursor: pointer;
 }
 
-.card_overlay > button:hover {
+.card_overlay > a:hover {
     box-shadow: inset -3px -3px 3px rgba(255,255,255, 0.1), 3px 3px 3px rgba(0,0,0,0.8), inset -3px -3px 3px rgba(255,255,255, 0.1), inset 3px 3px 3px rgba(0,0,0,0.8);
 }
 
@@ -120,11 +120,14 @@
     color: white;
     display: flex;
     align-items: center;
+    margin-top: 60px;
+}
+
+a {
     text-decoration: none;
 }
 
 .card_overlay_item > a > span {
-    /* font-size: 20px; */
     color: rgb(113, 233, 113);
     padding: 0px 10px;
 }

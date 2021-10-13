@@ -2176,6 +2176,10 @@
     box-shadow: inset -3px -3px 3px rgba(255,255,255,.9),inset 3px 3px 3px rgba(23, 23, 24, 0.1);
 }
 
+.aboutLight > .about_wrapper > .experience > .experience_items > h3:nth-child(2) {
+    color: coral; 
+}
+
 
 /*RESPONSIVE*/
 
@@ -2787,20 +2791,3 @@
         cursor: pointer;
     }
 }
-
-
-
-
-/* 
-
-.experience_box {
-    
-}
-
-.experience_box > .card {
-    
-}
-
-.btn button {
-    
-} */
