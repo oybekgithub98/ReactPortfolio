@@ -22,7 +22,7 @@ const Portfel = () => {
                     <img src={TelegramImage} alt={TelegramImage} />
                     <div className={classes.card_overlay}>
                         <h4>This project was built using HTML, SCSS and JAVASCRIPT</h4>
-                        <a href="#" target="_blank">
+                        <a href="https://weathet-app.vercel.app/" target="blank">
                             View Project
                         </a>
                         <div className={classes.card_overlay_item}>
@@ -37,7 +37,7 @@ const Portfel = () => {
                     <img src={WhatsappImage} alt={WhatsappImage} />
                     <div className={classes.card_overlay}>
                         <h4>This project was built using HTML, SCSS and JAVASCRIPT</h4>
-                        <a href="#">View Project</a>
+                        <a href="https://weathet-app.vercel.app/">View Project</a>
                         <div className={classes.card_overlay_item}>
                             <a href="https://github.com/oybekgithub98/reactportfolio/tree/main/src/components/home">
                                 <span>Github code</span>
@@ -66,7 +66,7 @@ const Portfel = () => {
                     <img src={City} alt={City} />
                     <div className={classes.card_overlay}>
                         <h4>This project was built using HTML, SCSS and JAVASCRIPT</h4>
-                        <a href="#">View Project</a>
+                        <a href="https://weathet-app.vercel.app/">View Project</a>
                         <div className={classes.card_overlay_item}>
                             <a href="https://github.com/oybekgithub98/reactportfolio/tree/main/src/components/home">
                                 <span>Github code</span>
@@ -79,7 +79,7 @@ const Portfel = () => {
                     <img src={NamImage} alt={NamImage} />
                     <div className={classes.card_overlay}>
                         <h4>This project was built using HTML, SCSS and JAVASCRIPT</h4>
-                        <a href="#">View Project</a>
+                        <a href="https://weathet-app.vercel.app/">View Project</a>
                         <div className={classes.card_overlay_item}>
                             <a href="https://github.com/oybekgithub98/reactportfolio/tree/main/src/components/home">
                                 <span>Github code</span>
@@ -92,7 +92,7 @@ const Portfel = () => {
                     <img src={Calc} alt={Calc} />
                     <div className={classes.card_overlay}>
                         <h4>This project was built using HTML, SCSS and JAVASCRIPT</h4>
-                        <a href="#">View Project</a>
+                        <a href="https://weathet-app.vercel.app/">View Project</a>
                         <div className={classes.card_overlay_item}>
                             <a href="https://github.com/oybekgithub98/reactportfolio/tree/main/src/components/home">
                                 <span>Github code</span>
