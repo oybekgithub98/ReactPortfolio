@@ -6,21 +6,6 @@ import { useStateValue } from '../../StateProvider';
 const Footer = () => {
 
     const [dark] = useStateValue();
-    // console.log(dark, dispatch);
-
-    // clock function
-    // let time = new Date().toLocaleString();
-    // const [cdata, setCdata] = useState(time);
-    // console.log(cdata)
-
-    // const UpDataTime = () => {
-
-    //     time = new Date().toLocaleTimeString();
-    //     setCdata(time)
-    // }
-
-    // setInterval(UpDataTime, 1000);
-
 
     return (
         <div className={ ! dark.dark ? classes.footer : classes.footerLight}>
@@ -39,12 +24,9 @@ const Footer = () => {
                         <FaTwitter style={{ fontSize: "35px" }} className={classes.twit} />
                     </a>
                 </div>
-                {/* <div className={classes.copy_right}>
-                    <h3>{time}</h3>
-                </div> */}
             </div>
         </div>
     )
 }
 
-export default Footer
+export default Footer;
