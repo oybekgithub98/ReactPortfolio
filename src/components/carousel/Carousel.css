@@ -43,6 +43,34 @@ img:hover{
     z-index: 2;
 }
 
+
+@media screen and (max-width: 900px) {
+    .container > h2 {
+        font-size: 18px;
+    }
+    .lightContainer > h2 {
+      font-size: 18px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .container > h2 {
+        font-size: 17px;
+    }
+    .lightContainer > h2 {
+      font-size: 17px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+    .container > h2 {
+        font-size: 14px;
+    }
+    .lightContainer > h2 {
+      font-size: 14px;
+    }
+}
+
+
 /* LIGHTMODE DARKMODE */
 
 .lightContainer {
