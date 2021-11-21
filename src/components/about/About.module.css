@@ -66,59 +66,62 @@
     position: relative;
 }
 
-.skills_progress1 {
+.skills_progress1, 
+.skills_progress2, 
+.skills_progress3,
+.skills_progress4, 
+.skills_progress5, 
+.skills_progress6, 
+.skills_progress7, 
+.skills_progress8, 
+.skills_progress9, 
+.skills_progress10 {
     position: absolute;
     left: 0;
     top: 0;
-    width: 85%;
     height: 100%;
     border-radius: 40px;
     background: #fff;
-    animation: progress 2s ease-in-out forwards;
+}
+
+.skills_progress1 {
+    width: 90%;
     background: linear-gradient(45deg, #1fe6ff, #673Ab7);
 }
 .skills_progress2 {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 78%;
-    height: 100%;
-    border-radius: 40px;
-    background: #fff;
-    animation: progress 2s ease-in-out forwards;
+    width: 85%;
     background: linear-gradient(45deg, #3bc0ff, #33ff00);
 }
 .skills_progress3 {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 75%;
-    height: 100%;
-    border-radius: 40px;
-    background: #fff;
-    animation: progress 2s ease-in-out forwards;
+    width: 85%;
     background: linear-gradient(45deg, #ffee54, #ff00ca);
 }
-.skills_progress4 {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 60%;
-    height: 100%;
-    border-radius: 40px;
-    background: #fff;
-    animation: progress 2s ease-in-out forwards;
+.skills_progress4 {    position: absolute;
+    width: 75%;
     background: linear-gradient(45deg, #22ffde, #2196f3);
 }
 .skills_progress5 {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 52%;
-    height: 100%;
-    border-radius: 40px;
-    background: #fff;
-    animation: progress 2s ease-in-out forwards;
+    width: 72%;
+    background: linear-gradient(45deg, rgb(16, 114, 194), rgb(255, 0, 140));
+}
+.skills_progress6 {
+    width: 77%;
+    background: linear-gradient(45deg, #1fe6ff, #673Ab7);
+}
+.skills_progress7 {
+    width: 89%;
+    background: linear-gradient(45deg, #3bc0ff, #33ff00);
+}
+.skills_progress8 {
+    width: 92%;
+    background: linear-gradient(45deg, #ffee54, #ff00ca);
+}
+.skills_progress9 {
+    width: 75%;
+    background: linear-gradient(45deg, #22ffde, #2196f3);
+}
+.skills_progress10 {
+    width: 80%;
     background: linear-gradient(45deg, rgb(16, 114, 194), rgb(255, 0, 140));
 }
 
