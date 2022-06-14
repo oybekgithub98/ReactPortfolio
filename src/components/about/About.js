@@ -172,8 +172,10 @@ const About = () => {
                     }
 
                     <div className={classes.btn}>
-                        <button>Download CV</button>
-                        <button>Contact me</button>
+                        <form action="#">
+                            <a href='/#'><button>Download CV</button></a>
+                            <a href="#contact"><button>Contact me</button></a>
+                        </form>
                     </div>
                 </div>
             </div>

@@ -7,23 +7,12 @@ import { FiSun } from 'react-icons/fi';
 import { IoIosMoon } from 'react-icons/io';
 import { useStateValue } from '../../StateProvider';
 import './Home.css';
-// import { TimelineLite } from 'gsap';
 
 const Home = () => {
     const [dark, dispatch] = useStateValue();
-    // const gp = new TimelineLite()
     const [state, setState] = useState(false);
     console.log(state)
     
-    // useEffect(() => {
-    //     gp
-    //         .from('.theme', { duration: 1, y: '-200px', ease: 'bounse', delay: 0.7, rotation: '360' })
-    //         .from('.I_am', { duration: 1, x: '-200px', delay: 0.7 })
-    //         .from('.homeText', { duration: 1, x: '-500px', delay: 0.7 })
-    // }, [])
-
-   
-
     const shareDarkMode = () => {
         const sidebarId = document.getElementById('sidebar_menu');
         dispatch({
@@ -86,11 +75,12 @@ const Home = () => {
                         </div>
 
                         <div className="home_button">
-                            <button >More About Me</button>
-                            <button>Portfolio</button>
+                            <a href="#about"><button>More About Me</button></a>
+                            <a href="https://github.com/oybekgithub98/reactportfolio" target="/_blank"><button>Portfolio</button></a>
                         </div>
 
                         <div className="figure2">
+                            <Figure2 />
                             <Figure2 />
                         </div>
 
@@ -115,12 +105,17 @@ const Home = () => {
                             :
                             <IoIosMoon style={{ fontSize: "33px" }} />
                     }
-
+                </div>
+                <div className="language icon">
+                    <select>
+                        <option value="uz">Uz</option>
+                        <option value="ru">Ru</option>
+                        <option value="en">Eng</option>
+                    </select>
                 </div>
             </div>
-
         </div>
     )
 }
 
-export default Home
+export default Home;

@@ -93,6 +93,42 @@ textarea::placeholder {
 }
 
 
+/* ContactOpen */
+.contactOpen {
+    display: none;
+}
+
+.contactOpen_wrapper {
+    position: absolute;
+    border: 1px solid rgb(204, 204, 204);
+    background: #ffffff;
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+    inset: 50% auto auto 50%;
+    transform: translate(-50%, -50%);
+}
+
+.activeContactOpen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+    background:rgba(23, 23, 24, 0.6);
+    display: block;}
+
+.contactOpen_wrapper > img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.contactOpen_wrapper h1 {
+    color: coral;
+    text-align: center;
+}
 
 /*RESPONSIVE*/
 @media screen and (max-width: 1200px){

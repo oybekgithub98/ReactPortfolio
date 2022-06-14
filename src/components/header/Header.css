@@ -26,13 +26,13 @@ body {
     margin: auto;
 }
 
-.header_wrapper > h3 {
+.header_wrapper h3 {
     color: #fff;
     font-size: 36px;
     font-family: 'Indie Flower', cursive;
 }
 
-.header_wrapper > h3 > span {
+.header_wrapper span {
     color: coral;
 }
 
