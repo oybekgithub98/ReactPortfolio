@@ -6,6 +6,7 @@ import "swiper/components/pagination/pagination.scss";
 import "swiper/components/navigation/navigation.scss";
 import './Carousel.css';
 import { useStateValue } from '../../StateProvider';
+import { useTranslation } from 'react-i18next';
 
 import SwiperCore, { EffectCoverflow, Pagination, Navigation } from "swiper/core";
 SwiperCore.use([EffectCoverflow, Pagination, Navigation])
@@ -13,10 +14,11 @@ SwiperCore.use([EffectCoverflow, Pagination, Navigation])
 const Carousel = () => {
 
     const [ dark ] = useStateValue();
+    const { t } = useTranslation();
 
     return (
         <div className={ ! dark.dark ? "container" : "lightContainer"}>
-            <h2>Dolores eum, architecto, iste voluptate harum quae tempore fugit natus, ducimus corporis modi?</h2>
+            <h2>{t("carousel_h2")}</h2>
             <Swiper
                 navigation={true}
                 effect={"coverflow"}

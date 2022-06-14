@@ -7,10 +7,15 @@ import { FiSun } from 'react-icons/fi';
 import { IoIosMoon } from 'react-icons/io';
 import { useStateValue } from '../../StateProvider';
 import './Home.css';
+import SelectLang from '../../lang/SelectLang';
+import { useTranslation } from 'react-i18next';
+// import { t } from 'i18next';
 
 const Home = () => {
     const [dark, dispatch] = useStateValue();
     const [state, setState] = useState(false);
+    const { t } = useTranslation()
+    
     console.log(state)
     
     const shareDarkMode = () => {
@@ -39,10 +44,10 @@ const Home = () => {
                 <Figure1 />
                 <div className="home_body">
                     <div className="home_body_content">
-                        <p className="I_am">I am</p>
+                        <p>{t("i_am")}</p>
                         <p className="homeText">Soginboyev Oybek</p>
                         <div className="home_typing">
-                            <p>I'm a</p>
+                            {/* <p>{t("i_am")}</p> */}
                             <span>
                                 <TypingEffect
                                     messages={
@@ -75,8 +80,8 @@ const Home = () => {
                         </div>
 
                         <div className="home_button">
-                            <a href="#about"><button>More About Me</button></a>
-                            <a href="https://github.com/oybekgithub98/reactportfolio" target="/_blank"><button>Portfolio</button></a>
+                            <a href="#about"><button>{t("home_button1")}</button></a>
+                            <a href="https://github.com/oybekgithub98/reactportfolio" target="/_blank"><button>{t("home_button2")}</button></a>
                         </div>
 
                         <div className="figure2">
@@ -107,11 +112,12 @@ const Home = () => {
                     }
                 </div>
                 <div className="language icon">
-                    <select>
+                    <SelectLang />
+                    {/* <select>
                         <option value="uz">Uz</option>
                         <option value="ru">Ru</option>
                         <option value="en">Eng</option>
-                    </select>
+                    </select> */}
                 </div>
             </div>
         </div>

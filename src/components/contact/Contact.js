@@ -3,12 +3,13 @@ import classes from './Contact.module.css';
 import contactImage from '../../assets/contact-image.png';
 import { useStateValue } from '../../StateProvider';
 import { useForm } from "react-hook-form";
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
 
     const [dark] = useStateValue();
     const [opencontact, setOpencontact] = useState(false);
-    
+    const { t } = useTranslation();    
 
     const sendContent = (e) => {
         setOpencontact(!opencontact);
@@ -41,7 +42,7 @@ const Contact = () => {
 
     return (
         <div id="contact" className={!dark.dark ? classes.contact : classes.contactLight}>
-            <h3>Contact</h3>
+            <h3>{t("contact")}</h3>
             <div className={classes.contact_wrapper}>
                 <div className={classes.contact_image}>
                     <img src={contactImage} alt="" />
@@ -57,7 +58,7 @@ const Contact = () => {
                                 }
                                 
                             })}
-                            placeholder="First Name"
+                            placeholder={t("contact_input1")}
                         />
                         <div style={{height: 20}}>{errors?.FirstName && <p style={{color: "red"}}>{errors?.FirstName?.message || "Error!"}</p>}</div>
                         <input 
@@ -69,7 +70,7 @@ const Contact = () => {
                                 }
                                 
                             })}
-                            placeholder="Last Name"
+                            placeholder={t("contact_input2")}
                         />
                         <div style={{height: 20}}>{errors?.LastName && <p style={{color: "red"}}>{errors?.LastName?.message || "Error!"}</p>}</div>
                         <input type="email" 
@@ -87,10 +88,10 @@ const Contact = () => {
                                     message: "minimum 8"
                                 }
                             })}
-                            placeholder="Password"
+                            placeholder={t("contact_input3")}
                         />
                         <div style={{height: 20}}>{errors?.password && <p style={{color: "red"}}>{errors?.password?.message || "Error!"}</p>}</div>
-                        <input type="submit" />
+                        <input value={t("value")} />
                     </form>
                     {/* <button type="submit" >Send Massage</button> */}
 
