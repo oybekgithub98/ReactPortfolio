@@ -1,0 +1,92 @@
+.load {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2B2C2F;
+    overflow: hidden;
+}
+
+.big-circle {
+    width: 25rem;
+    height: 25rem;
+    border: 5px solid rgb(119, 0, 255);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-color: #fff transparent #fff transparent;
+    animation: bigcircle 1.2s linear infinite;    
+}
+
+.small-circle {
+    position: relative;
+    width: 21rem;
+    height: 21rem;
+    border: 5px solid #ffff;
+    border-radius: 50%;
+    border-color: transparent #fff transparent #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: bigcircleR .7s linear infinite; 
+}
+
+.small-circle1 {
+    position: relative;
+    width: 17rem;
+    height: 17rem;
+    border: 5px solid #ffff;
+    border-radius: 50%;
+    border-color: #fff transparent #fff transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: bigcircle .7s linear infinite;  
+}
+
+.small-circle2 {
+    position: relative;
+    width: 13rem;
+    height: 13rem;
+    border: 5px solid #ffff;
+    border-radius: 50%;
+    border-color: transparent #fff transparent #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: bigcircleR .7s linear infinite; 
+}
+
+.small-circle3 {
+    position: relative;
+    width: 9rem;
+    height: 9rem;
+    border: 5px solid rgb(243, 0, 0);
+    border-radius: 50%;
+    border-color: #fff transparent #fff transparent;
+    animation: bigcircle .7s linear infinite;  
+}
+
+
+@keyframes bigcircle {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes bigcircleR {
+    0% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
