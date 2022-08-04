@@ -54,10 +54,9 @@ const Carousel = () => {
                 <SwiperSlide>
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqIRApj5jlxMuvziJx07NqoJ5ttqmKm2FfbtycY2c-z1z44eDQf9PmH3c4uqXLvEUNBIE&usqp=CAU" alt="biron nima" />
                 </SwiperSlide>
-                
             </Swiper>
         </div>
     )
 }
 
-export default Carousel
+export default Carousel;

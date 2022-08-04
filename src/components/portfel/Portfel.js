@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './Portfel.module.css';
 import Quran from '../../assets/quron-audios.png';
+import Diskount from '../../assets/diskount.png';
 import City from '../../assets/city.jpg';
 import cart from '../../assets/cart.png';
 import shopping from '../../assets/shopping.png';
@@ -51,10 +52,10 @@ const Portfel = () => {
                 </div>
 
                 <div className={classes.portfolio_card2}>
-                    <img src={Quran} alt={Quran} />
+                    <img src={Diskount} alt={Diskount} />
                     <div className={classes.card_overlay}>
                         <h4>{t("card_overlay")}</h4>
-                        <a href="#portfolio" target="/_blank">{t("View_Project")}</a>
+                        <a href="https://diskount.techdatasoft.uz/" target="/_blank">{t("View_Project")}</a>
                         <div className={classes.card_overlay_item}>
                             <a href="https://github.com/oybekgithub98/reactportfolio/tree/main/src/components/home">
                             <span>{t("overlay_github")}</span>

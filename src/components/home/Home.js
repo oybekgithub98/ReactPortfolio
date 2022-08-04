@@ -111,13 +111,8 @@ const Home = () => {
                             <IoIosMoon style={{ fontSize: "33px" }} />
                     }
                 </div>
-                <div className="language icon">
+                <div className={!dark.dark ? "icon" : "iconSelectLign"}>
                     <SelectLang />
-                    {/* <select>
-                        <option value="uz">Uz</option>
-                        <option value="ru">Ru</option>
-                        <option value="en">Eng</option>
-                    </select> */}
                 </div>
             </div>
         </div>
