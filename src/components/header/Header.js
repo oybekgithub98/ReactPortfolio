@@ -12,7 +12,7 @@ const Header = ({ menu, menuActive }) => {
     return (
         <div className={!dark.dark ? "header" : "light"}>
             <div className="header_wrapper">
-                <a href="/#"><h3 className="header_logo">Port<span>folio</span></h3></a>
+                <a href="/#"><h3 className="header_logo">Port<span>folio</span> salom</h3></a>
                 <div className="header_hamburger" onClick={menu}>
                     {
                         !menuActive ?
