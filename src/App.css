@@ -10,3 +10,16 @@ body {
   height: auto;
   background-color: #F7F7F7 !important;
 }
+
+.loaderApp {
+ animation: loaderAnimation 5s 2 both;
+}
+
+
+@keyframes loaderAnimation {
+ from{
+   transform: scale(0);
+   
+ }
+ to{transform: scale(1);}
+}

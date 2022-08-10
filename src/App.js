@@ -4,7 +4,7 @@ import Default from './default/Default';
 function App() {
   return (
     <div className="app">
-      <Default />
+      <Default  />
     </div>
   );
 }

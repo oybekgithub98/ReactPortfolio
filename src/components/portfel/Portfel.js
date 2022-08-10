@@ -81,7 +81,7 @@ const Portfel = () => {
                     </div>
                 </div>
                 
-                <div className={classes.portfolio_card1}>
+                {/* <div className={classes.portfolio_card1}>
                     <img src={youtubeCloneimg} alt={youtubeCloneimg} />
                     <div className={classes.card_overlay}>
                         <h4>{t("card_overlay")}</h4>
@@ -93,8 +93,8 @@ const Portfel = () => {
                             </a>
                         </div>
                     </div>
-                </div>
-                <div className={classes.portfolio_card2}>
+                </div> */}
+                {/* <div className={classes.portfolio_card2}>
                     <img src={cart} alt={cart} />
                     <div className={classes.card_overlay}>
                         <h4>{t("card_overlay")}</h4>
@@ -108,7 +108,7 @@ const Portfel = () => {
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
             </div>
             <Carousel />

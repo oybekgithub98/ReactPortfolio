@@ -13,7 +13,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Suspense   fallback={<Loader /> } >
       <StateProvider reducer={reducer} initialState={initialState}>
-        <App />
+        <App clasName="loaderApp" />
       </StateProvider>
     </Suspense>
   </React.StrictMode>,
